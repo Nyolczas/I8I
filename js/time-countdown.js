@@ -18,7 +18,7 @@ var x = setInterval(function() {
     
     // Output the result in an element with id="demo"
     document.getElementById("demo").innerHTML = "<p>Ezt az oldalt <b>" + days + " nap, " + hours + " óra,</p><p>"
-    + minutes + " perc</b> és <b>" + seconds + " másodperc</b> múlva,</p><p><b>új tartalmak</b>kal fogom frissiteni.</p>";
+    + minutes + " perc</b> és <b>" + seconds + " másodperc</b> múlva,</p><p>fogom <b>új tartalmak</b>kal frissiteni.</p>";
     
     // If the count down is over, write some text 
     if (distance < 0) {
