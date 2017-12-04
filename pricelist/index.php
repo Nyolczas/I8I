@@ -4,7 +4,7 @@ session_start();
 if (isset($_POST['rendben'])) {
 	
 	//változók tisztítása
-	require("kapcsolat.php");
+	require("../kapcsolat.php");
 	$email = mysqli_real_escape_string($dbconn, strip_tags(strtolower(trim($_POST['email']))));
 	$jelszo = sha1($_POST['jelszo']);
 	//változók ellenőrzése
