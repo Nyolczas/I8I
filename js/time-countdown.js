@@ -17,7 +17,7 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = "<p>Oldalamat <b>" + days + " nap, " + hours + " óra,</p><p>"
+    document.getElementById("demo").innerHTML = "<p>Ezt az oldalt <b>" + days + " nap, " + hours + " óra,</p><p>"
     + minutes + " perc</b> és <b>" + seconds + " másodperc</b> múlva,</p><p><b>új tartalmak</b>kal fogom frissiteni.</p>";
     
     // If the count down is over, write some text 
