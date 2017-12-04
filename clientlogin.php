@@ -41,15 +41,15 @@ if (isset($_POST['rendben'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Felvitel</title>
-    <link rel="stylesheet" href="../stilus.css">
+    <title>Ügyfél Belépés</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Belépés</h1>
     <form method="post" action="">
 	<?php if (isset($hiba)) print $hiba; ?>
 		<p><label for="email">E-mail:*</label><br>
-		<input type="email" id="email" name="email" required></p>
+		<input type="text" id="email" name="email" required></p>
 		<p><label for="jelszo">Jelszó:*</label><br>
 		<input type="password" id="password" name="jelszo" required></p>
 		<p><em>A *-gal jelölt mezők kitöltése kötelező!</em></p>
