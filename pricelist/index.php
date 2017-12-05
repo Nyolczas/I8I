@@ -8,8 +8,10 @@ if (isset($_POST['rendben'])) {
 	$email = mysqli_real_escape_string($dbconn, strip_tags(strtolower(trim($_POST['email']))));
 	$jelszo = sha1($_POST['jelszo']);
 	//változók ellenőrzése
-	if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL))  {
-			$hiba = "Hibás e-mail címet, vagy jelszót adtál meg!";
+	if (empty($email) )  {
+			$hiba = '<div class="alert alert-danger" role="alert">
+                    Wrong Username or Password!
+                        </div>';
 		}
 		// Beléptetés
 		else {
@@ -23,16 +25,17 @@ if (isset($_POST['rendben'])) {
 			//sikeres
 			if (mysqli_num_rows($eredmeny) == 1) {
 				$_SESSION['belepett'] = true;
-				header("Location: lista.php");
+				header("Location: introdution.php");
 			}
 			else {
 				//sikertelen
-				$hiba = "Hibás e-mail címet, vagy jelszót adtál meg!";
+				$hiba = '<div class="alert alert-danger" role="alert">
+                    Wrong Username or Password!
+                        </div>';
 			}
 		}
 			
 	/* $jelszo = mysqli_real_escape_string($dbconn, $jelszo) */
-	
 }
 
 ?>
@@ -64,7 +67,7 @@ if (isset($_POST['rendben'])) {
 
         </div>
         <!-- /container -->
-<!--
+        <!--
         <h1>Belépés</h1>
         <form method="post" action="">
             <?php if (isset($hiba)) print $hiba; ?>
