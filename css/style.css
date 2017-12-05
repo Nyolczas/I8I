@@ -1,116 +1,158 @@
 /* ==== GENERAL STYLES ==== */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Spectral+SC&subset=latin-ext');
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: rgba(0, 0, 0, 0.5);
+    background-color: #131a29;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
 }
+
 /* ==== HEADER CSS ==== */
 
 header {
-  text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 3.2rem;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background-color: white;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 header img {
-  width: 12rem;
-  border: 1px solid rgba(0, 0, 0, .1);
-  border-radius: 100%;
-  padding: .25rem;
+    width: 12rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 100%;
+    padding: .25rem;
 }
 
 header h1 {
-  font-family: 'Spectral SC', serif;
-  color: rgba(0, 0, 0, 0.75);
-  font-size: 1.75rem;
-  margin: .67rem 0;
+    font-family: 'Spectral SC', serif;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1.75rem;
+    margin: .67rem 0;
 }
 
-header h2 { 
-  font-size: .875rem;
-  letter-spacing: .1rem;
+header h2 {
+    font-size: .875rem;
+    letter-spacing: .1rem;
 }
 
 #demo {
-  text-align: center;
-  letter-spacing: .03rem;
-  margin-top: 3rem;
+    text-align: center;
+    letter-spacing: .03rem;
+    margin-top: 3rem;
+    line-height: 1.5rem;
 }
 
 /* ================================================ Menü ================================================ */
+
 .headerbox {
-  max-width: 700px;
-  margin: auto;
+    max-width: 700px;
+    margin: auto;
 }
 
-.hamburger{
-  background:none;
-  position:absolute;
-  top:0;
-  left: calc(50% - 360px);
-  line-height:45px;
-  padding:5px 15px 0px 15px;
-  color:#999;
-  border:0;
-  font-size:1.4em;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
+.hamburger {
+    background: none;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 360px);
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
 }
-.cross{
-  background:none;
-  position:absolute;
-  top:0px;
-  left:calc(50% - 360px);
-  padding:7px 15px 0px 15px;
-  color:#999;
-  border:0;
-  font-size:3em;
-  line-height:65px;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
+
+.cross {
+    background: none;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 360px);
+    padding: 7px 15px 0px 15px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    font-size: 3em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
 }
+
 #menu {
-  z-index:1000000; 
-  font-weight:bold; 
-  font-size:0.8em; 
-  width:200px; 
-  background:#f1f1f1;
-  position:absolute; 
-  text-align:center; 
-  font-size:12px;
+    z-index: 1000000;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 200px;
+    background: #f1f1f1;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
 }
 
 #menu ul {
-  margin: 0; 
-  padding: 0; 
-  list-style-type: none; 
-  list-style-image: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
 }
 
-#menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-#menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-#menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
-#menu ul li a:hover {  color: #666; text-decoration:none;}
-#menu a{text-decoration:none; color:#666;}
-#menu a:hover{text-decoration:none; color:#666;}
-
-.glyphicon-home{
-  color:white; 
-  font-size:1.5em; 
-  margin-top:5px; 
-  margin:0 auto;
+#menu li {
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid;
 }
-span{padding-left:20px;}
-a{color:#336699;}
+
+#menu li:hover {
+    display: block;
+    background: #ffffff;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    margin: 0px;
+    color: #666;
+}
+
+#menu ul li a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #666;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+.glyphicon-home {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin: 0 auto;
+}
+
+span {
+    padding-left: 20px;
+}
+
+a {
+    color: #336699;
+}
 
 /* ================================================ /Menü ================================================ */
