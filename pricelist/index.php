@@ -55,9 +55,11 @@ if (isset($_POST['rendben'])) {
 
     <body class="hatter">
         <div class="container">
-            <div class="logo"></div>
-            <form method="post" action="" class="form-signin">
+            <div class="logo">
+                <img class="img-fluid max" src="img/freelusion-logo-glow.png" alt="freelusion-logo">
                 <h1 class="display-4">OFFICIAL PRICELIST 2018</h1>
+            </div>
+            <form method="post" action="" class="form-signin">
                 <h2 class="form-signin-heading">Please sign in</h2>
                 <?php if (isset($hiba)) print $hiba; ?>
                 <label for="email" class="sr-only">Username</label>

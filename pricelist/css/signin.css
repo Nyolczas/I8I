@@ -31,21 +31,23 @@ body {
 
 .logo {
     display: block;
-    background: url(../img/freelusion-logo-glow.png);
-    margin: auto;
-    margin-top: 3rem;
+    margin: 3rem auto 5rem auto;
     width: 465px;
     height: 150px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    max-width: 100%;
 }
 
 .display-4 {
     font-size: 1.2rem;
     font-style: italic;
     color: rgba(255, 255, 255, 0.8);
-    margin: -0.5rem 0 5rem 0;
+    margin: -1.2vh 0 5rem 16vw;
+}
+
+@media screen and (min-width:495px) {
+    .display-4 {
+    margin: -0.9rem 0 5rem 5.2rem;
+    }
 }
 /* ================ /LogoHeader ================ */
 
