@@ -53,7 +53,7 @@ if (isset($_POST['rendben'])) {
         <link href="css/signin.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="hatter">
         <div class="container">
             <form method="post" action="" class="form-signin">
                 <h2 class="form-signin-heading">Please sign in</h2>

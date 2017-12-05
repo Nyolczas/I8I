@@ -1,3 +1,9 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -13,6 +19,14 @@ body {
     /* Standard syntax */
     color: rgba(255, 255, 255, 0.5);
 }
+
+.hatter {
+    background-image: url("../img/boxbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .form-signin {
     max-width: 330px;
