@@ -55,7 +55,9 @@ if (isset($_POST['rendben'])) {
 
     <body class="hatter">
         <div class="container">
+            <div class="logo"></div>
             <form method="post" action="" class="form-signin">
+                <h1 class="display-4">OFFICIAL PRICELIST 2018</h1>
                 <h2 class="form-signin-heading">Please sign in</h2>
                 <?php if (isset($hiba)) print $hiba; ?>
                 <label for="email" class="sr-only">Username</label>
@@ -67,18 +69,6 @@ if (isset($_POST['rendben'])) {
 
         </div>
         <!-- /container -->
-        <!--
-        <h1>Belépés</h1>
-        <form method="post" action="">
-            <?php if (isset($hiba)) print $hiba; ?>
-            <p><label for="email">E-mail:*</label><br>
-                <input type="text" id="email" name="email" required></p>
-            <p><label for="jelszo">Jelszó:*</label><br>
-                <input type="password" id="password" name="jelszo" required></p>
-            <p><em>A *-gal jelölt mezők kitöltése kötelező!</em></p>
-            <input type="submit" id="rendben" name="rendben" value="Belépés">
-        </form>
--->
         <!--	Bootstrap-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>

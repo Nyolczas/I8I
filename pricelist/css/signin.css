@@ -27,6 +27,29 @@ body {
     background-size: cover;
 }
 
+/* ================ LogoHeader ================ */
+
+.logo {
+    display: block;
+    background: url(../img/freelusion-logo-glow.png);
+    margin: auto;
+    margin-top: 3rem;
+    width: 465px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    margin: -0.5rem 0 5rem 0;
+}
+/* ================ /LogoHeader ================ */
+
+/* ================ Form ================ */
 
 .form-signin {
     max-width: 330px;
@@ -66,3 +89,5 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+/* ================ /Form ================ */
