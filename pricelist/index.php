@@ -44,12 +44,27 @@ if (isset($_POST['rendben'])) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Ügyfél Belépés</title>
-        <link rel="stylesheet" href="css/style.css">
         <!--    Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <!-- Custom styles for this template -->
+        <link href="css/signin.css" rel="stylesheet">
     </head>
 
     <body>
+        <div class="container">
+            <form method="post" action="" class="form-signin">
+                <h2 class="form-signin-heading">Please sign in</h2>
+                <?php if (isset($hiba)) print $hiba; ?>
+                <label for="email" class="sr-only">Username</label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="Username" required autofocus>
+                <label for="jelszo" class="sr-only">Password</label>
+                <input type="password" id="password" name="jelszo" class="form-control" placeholder="Password" required>
+                <button class="btn btn-lg btn-primary btn-block" id="rendben" name="rendben" type="submit">Sign in</button>
+            </form>
+
+        </div>
+        <!-- /container -->
+<!--
         <h1>Belépés</h1>
         <form method="post" action="">
             <?php if (isset($hiba)) print $hiba; ?>
@@ -60,6 +75,7 @@ if (isset($_POST['rendben'])) {
             <p><em>A *-gal jelölt mezők kitöltése kötelező!</em></p>
             <input type="submit" id="rendben" name="rendben" value="Belépés">
         </form>
+-->
         <!--	Bootstrap-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
