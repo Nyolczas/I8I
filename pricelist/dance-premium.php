@@ -47,7 +47,7 @@ if (!isset($_SESSION['belepett'])) {
                                 <a class="dropdown-item" href="introdution.php">Introducion</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item active" href="danceshows.php">Dance Shows</a>
-                                <a class="dropdown-item" href="vieoprojection.php">Video Projection Solutions</a>
+                                <a class="dropdown-item" href="videoprojection.php">Video Projection Solutions</a>
                                 <a class="dropdown-item" href="free100.php">100% Freelusion</a>
                                 <a class="dropdown-item" href="artworks.php">Animation Artworks</a>
                             </div>
