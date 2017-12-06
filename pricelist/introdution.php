@@ -38,7 +38,7 @@ if (!isset($_SESSION['belepett'])) {
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-7">
-                    <a class="btn btn-primary" href="#" role="button">Dance Shows</a>
+                    <a class="btn btn-primary" href="danceshows.php" role="button">Dance Shows</a>
                     <a class="btn btn-primary" href="#" role="button">Video Projection Solutions</a>
                     <a class="btn btn-primary" href="#" role="button">100% Freelusion</a>
                     <a class="btn btn-primary" href="#" role="button">Animation Artworks</a>
