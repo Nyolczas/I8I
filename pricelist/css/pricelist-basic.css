@@ -1,0 +1,86 @@
+body {
+    background: rgb(38, 0, 48);/* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #061F31 , #2F062C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #061F31, #2F062C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #061F31, #2F062C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #061F31 , #2F062C); /* Standard syntax */
+}
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -130px;
+    /* Pad bottom by footer height */
+    padding: 0 0 130px;
+  }
+
+.jumbotron {
+    background-color: #38083700; 
+    padding-top: 100px;
+}
+
+/* ================================ Footer ================================ */
+
+.footer {
+    height: 130px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 6px;
+}
+
+.footerline {
+    margin: 11px;
+}
+
+/* Facebook */
+.fa {
+    padding: 6px;
+    font-size: 13px;
+    width: 26px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 0.5rem 0.3rem 0.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-instagram:hover {
+    background: #125688;
+    color: white;
+    text-decoration: none;
+}
+
+.adresslink {
+    margin: 0 0.5rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.adresslink:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+.footerline p {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* ================================ /Footer ================================ */

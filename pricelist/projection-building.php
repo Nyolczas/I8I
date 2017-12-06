@@ -26,6 +26,7 @@ if (!isset($_SESSION['belepett'])) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Custom styles -->
+        <link href="css/pricelist-basic.css" rel="stylesheet">
         <link href="css/pricelist.css" rel="stylesheet">
     </head>
 
@@ -55,7 +56,7 @@ if (!isset($_SESSION['belepett'])) {
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Building Mapping</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item active" href="videoprojection.php">About Video Projections</a>
+                                <a class="dropdown-item" href="videoprojection.php">About Video Projections</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item active" href="projection-building.php">Building Mapping</a>
                                 <a class="dropdown-item" href="projection-car.php">Car Projection</a>
