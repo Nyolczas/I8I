@@ -53,13 +53,13 @@ if (!isset($_SESSION['belepett'])) {
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Car Projection</a>
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Stage Decor</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item active" href="videoprojection.php">About Video Projections</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="projection-building.php">Building Mapping</a>
-                                <a class="dropdown-item active" href="projection-car.php">Car Projection</a>
-                                <a class="dropdown-item" href="projection-stage.php">Stage Decor</a>
+                                <a class="dropdown-item" href="projection-car.php">Car Projection</a>
+                                <a class="dropdown-item active" href="projection-stage.php">Stage Decor</a>
                                 <a class="dropdown-item" href="projection-games.php">Interactive Games</a>
                             </div>
                         </li>
