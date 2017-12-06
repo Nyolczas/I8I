@@ -53,11 +53,11 @@ if (!isset($_SESSION['belepett'])) {
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Dance Shows</a>
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tailor Made Dance</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item active" href="danceshows.php">About Dance Shows</a>
+                                <a class="dropdown-item" href="danceshows.php">About Dance Shows</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="dance-tailormade.php">Tailor Made Dance</a>
+                                <a class="dropdown-item active" href="dance-tailormade.php">Tailor Made Dance</a>
                                 <a class="dropdown-item" href="dance-fullnight.php">Full Night Shows</a>
                                 <a class="dropdown-item" href="dance-coworking.php">Co-Working Shows</a>
                                 <a class="dropdown-item" href="dance-premium.php">Premium Dance Shows</a>
