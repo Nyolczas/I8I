@@ -15,45 +15,30 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     margin-bottom: 0.5rem;
 }
 
-.nav-item {
-    margin-left: 1.8rem;
+@media screen and (max-width:768px) {
+    .nav-link {
+       margin-left: 2rem; 
+    }
 }
-
-/*
-.dropdown-menu {
-    background-color:rgba(51, 14, 50, 0.95);
-    top: 107%;
-    border-left: 1px solid rgba(207, 6, 123, 0.75);
-    border-right: 1px solid rgba(207, 6, 123, 0.75);
-    border-bottom: 1px solid rgba(207, 6, 123, 0.75);
-     box-shadow: 0px 0px 35px rgba(0, 153, 224, 0.4); 
-}
-
-.dropdown-item {
-    color: rgba(255,255,255,.7);
-}
-
-.dropdown-item:hover {
-    background-color:rgba(207, 6, 123, 1);
-    color: rgb(255, 255, 255);
-}
-
-.dropdown-divider {
-    border-top: 1px solid rgba(207, 6, 123, 0.75);
-}
-*/
 
 @media screen and (min-width:768px) {
     .nav-link {
         padding-bottom: 0px;
         margin-bottom: 0px;
-        margin-top: 35px;
+        margin-top: 5px;
     }
 
     .navlogo {
         margin-bottom: 0;
     }
 }
+
+@media screen and (min-width:992px) {
+    .nav-link {
+        margin-top: 35px;
+    }
+}
+
 /* ================================ /NAVBAR ================================ */
 
 /* ================================ /DANCE SHOWS ================================ */

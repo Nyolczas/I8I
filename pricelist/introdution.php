@@ -41,20 +41,20 @@ if (!isset($_SESSION['belepett'])) {
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="pricelistNavbar">
-                    <ul class="navbar-nav navbar-right">
+                    <ul class="navbar-nav navbar-right bottom-align">
                         <li class="nav-item">
-                            <a class="nav-link" href="introdution.php">Introducion</a>
+                            <a class="nav-link active" href="introdution.php">Introducion</a>
                         </li>
-                        <li>
+                        <li class="nav-item">
                             <a class="nav-link" href="danceshows.php">Dance Shows</a>
                         </li>
-                        <li>
-                            <a class="nav-link active" href="videoprojection.php">Video Projection Solutions</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="videoprojection.php">Video Projection Solutions</a>
                         </li>
-                        <li>
+                        <li class="nav-item">
                             <a class="nav-link" href="free100.php">100% Freelusion</a>
                         </li>
-                        <li>
+                        <li class="nav-item">
                             <a class="nav-link" href="artworks.php">Animation Artworks</a>
                         </li>
                     </ul>
