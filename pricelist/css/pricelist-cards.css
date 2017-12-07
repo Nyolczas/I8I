@@ -126,7 +126,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     color: white;
     margin-bottom: 1rem;
     padding: 0;
-    box-shadow: 0 0 1rem 0.1rem rgba(0,123,255,.5);
+    box-shadow: 0 0 1rem 0.1rem rgba(28, 211, 255, 0.5);
     border: none;
     border-radius: 0 0 0.5rem 0.5rem;
     background : -moz-linear-gradient(0% 50% 0deg,rgba(94, 3, 57, 1) 0%,rgba(73, 19, 70, 1) 31.92%,rgba(71, 19, 70, 1) 33%,rgba(14, 45, 78, 1) 68.15%,rgba(12, 47, 78, 1) 70.3%,rgba(0, 65, 87, 1) 100%);
@@ -145,7 +145,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     padding: 0.5rem;
     font-size: 1.2rem;
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .light {

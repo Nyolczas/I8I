@@ -80,7 +80,7 @@ if (!isset($_SESSION['belepett'])) {
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <iframe id="video1" class="embed-responsive-item" src="https://www.youtube.com/embed/J7ENd8i9Bi4" frameborder="0" allowfullscreen></iframe>
                                 </div>
-                                <img id="image1" class="img-responsive" src="img\premium_1_adameve.jpg" alt="Adam and Eve"> <h2 class="cim"> <span class="light">AGT 2015</span>  ADAM & EVE  <span class="light">PROJECTION DANCE</span> </h2> 
+                                <img id="image1" class="img-responsive" src="img\premium_1_adameve.jpg" alt="Adam and Eve"> <h2 class="cim" id="cim1"> <span class="light">AGT 2015</span>  ADAM & EVE  <span class="light">PROJECTION DANCE</span> </h2> 
                             </div>
                             <div class="panel" id="panel1">
                                 <div class="card-txt">
