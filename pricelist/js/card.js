@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    $("img-responsive").mouseenter(function(){
+        $(this).css("width", "120%");
+    });
+    
     $("#flip1").click(function () {
         $("#panel1").slideToggle("slow");
     });
@@ -11,4 +15,6 @@ $(document).ready(function () {
     $("#flip4").click(function () {
         $("#panel4").slideToggle("slow");
     });
+    
+    
 });
