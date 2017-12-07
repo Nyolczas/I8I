@@ -60,6 +60,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     text-align: left;
     white-space: inherit;
     width: 100%;
+    margin-top: 1rem;
     background : -moz-linear-gradient(0% 50% 0deg,rgba(137, 4, 83, 1) 0%,rgba(94, 24, 91, 1) 31.92%,rgba(92, 25, 91, 1) 33%,rgba(17, 61, 105, 1) 68.15%,rgba(15, 63, 106, 1) 70.3%,rgba(0, 91, 122, 1) 100%);
     background : -webkit-linear-gradient(0deg, rgba(137, 4, 83, 1) 0%, rgba(94, 24, 91, 1) 31.92%, rgba(92, 25, 91, 1) 33%, rgba(17, 61, 105, 1) 68.15%, rgba(15, 63, 106, 1) 70.3%, rgba(0, 91, 122, 1) 100%);
     background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(137, 4, 83, 1) ),color-stop(0.3192,rgba(94, 24, 91, 1) ),color-stop(0.33,rgba(92, 25, 91, 1) ),color-stop(0.6815,rgba(17, 61, 105, 1) ),color-stop(0.703,rgba(15, 63, 106, 1) ),color-stop(1,rgba(0, 91, 122, 1) ));
@@ -204,6 +205,16 @@ strong {
 .doubleprice {
     width: 50%; 
     float: left;
+}
+
+.doubleprice::after {
+    clear: both;
+}
+
+.doubleprice-after {
+    clear: both;
+    width: 20px;
+    height: 1px;
 }
 
 /* ================================ /DANCE SHOWS ================================ */

@@ -15,10 +15,19 @@ $(document).ready(function () {
     });
 
     //   ======================== flip 2 ========================   
-    $("#flip2").click(function () {
-        $("#panel2").slideToggle("slow");
+    $("#flip2").mouseenter(function () {
+        $("#cim2").css("color", "white");
+    });
+    $("#flip2").mouseleave(function () {
+        $("#cim2").css("color", "rgba(255, 255, 255, 0.9)");
     });
 
+    $("#flip2").click(function () {
+        $("#panel2").slideToggle("slow");
+        $("#flip2").css("box-shadow", "0 0 1rem 0.1rem rgba(28, 211, 255, 0.5)");
+        $("#image2").hide();
+        $("#video2").css("display", "block");
+    });
     //   ======================== flip 3 ========================
     $("#flip3").click(function () {
         $("#panel3").slideToggle("slow");

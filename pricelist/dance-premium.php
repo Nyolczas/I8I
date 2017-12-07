@@ -80,7 +80,8 @@ if (!isset($_SESSION['belepett'])) {
                                 <div id="video1" class="embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J7ENd8i9Bi4" frameborder="0" allowfullscreen></iframe>
                                 </div>
-                                <img id="image1" class="img-responsive" src="img\premium_1_adameve.jpg" alt="Adam and Eve"> <h2 class="cim" id="cim1"> <span class="light">AGT 2015</span>  ADAM & EVE  <span class="light">PROJECTION DANCE</span> </h2> 
+                                <img id="image1" class="img-responsive" src="img\premium_1_adameve.jpg" alt="Adam and Eve">
+                                <h2 class="cim" id="cim1"> <span class="light">AGT 2015 </span> ADAM & EVE <span class="light"> PROJECTION DANCE</span> </h2>
                             </div>
                             <div class="panel" id="panel1">
                                 <div class="card-txt">
@@ -102,66 +103,36 @@ if (!isset($_SESSION['belepett'])) {
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
-                           <div class="flip" id="flip2">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe id="video2" class="embed-responsive-item" src="https://www.youtube.com/embed/mnxQcax-kKU" frameborder="0" allowfullscreen></iframe>
+                            <div class="flip" id="flip2">
+                                <div id="video2" class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mnxQcax-kKU" frameborder="0" allowfullscreen></iframe>
                                 </div>
-                                <img id="image2" class="img-responsive" src="img\premium_2_cube.jpg" alt="2013 GOT TALENT PACKAGE CUBE SHOWS"> <h2 class="cim" id="cim2"> <span class="light">2013 GOT TALENT PACKAGE</span>  CUBE SHOWS </h2> 
+                                <img id="image2" class="img-responsive" src="img\premium_2_cube.jpg" alt="2013 GOT TALENT PACKAGE CUBE SHOWS">
+                                <h2 class="cim" id="cim2"> <span class="light">2013 GOT TALENT PACKAGE</span> CUBE SHOWS </h2>
                             </div>
-                            <div class="panel" id="panel1">
+                            <div class="panel" id="panel2">
                                 <div class="card-txt">
                                     <small class="descript">
-                                            This unique performance was the base of our America’s Got Talent success in 2015 which put Freelusion into the Semi-finals
-                                            and an invitation as a special guest performance in the Finals.
+                                            A premium selection of the best Got Talent performances, including the various dancer shows with the Cubes.
                                         </small>
                                     <p class="specifi">
                                         Length:
-                                        <strong>5 minutes</strong>
+                                        <strong>15 or 25 minutes</strong>
                                         <br> Crew:
-                                        <strong>3 dancers,
+                                        <strong>4 dancers,
                                                 <br> 1 manager, 1 technician, 1 assistant</strong>
-                                        <br> Special offer:
-                                        <strong>the same AGT TV show dancers for an extra 4.000 EUR</strong>
                                     </p>
-                                    <h3 class="price">13.750 €</h3>
-                                </div>
-                            </div>
-<!--
-                            <div class="clearfix">
-                                <p>
-                                    <a class="btn btn-primary clearfix" data-toggle="collapse" href="#cubeShows" aria-expanded="false" aria-controls="cubeShows">
-                                    <img class="img-responsive btnImage" src="img\premium_2_cube.jpg" alt="Adam and Eve"> 2013 GOT TALENT PACKAGE CUBE SHOWS
-                                </a>
-                                </p>
-                                <div class="collapse clearfix" id="cubeShows">
-                                    <div class="card card-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mnxQcax-kKU" frameborder="0" allowfullscreen></iframe>
-                                        </div>
-                                        <div class="card-txt">
-                                            <small class="descript">
-                                            A premium selection of the best Got Talent performances, including the various dancer shows with the Cubes.
-                                        </small>
-                                            <p class="specifi">
-                                                Length:
-                                                <strong>15 or 25 minutes</strong>
-                                                <br> Crew:
-                                                <strong>4 dancers,
-                                                <br> 1 manager, 1 technician, 1 assistant</strong>
-                                            </p>
-                                            <div class="doubleprice">
-                                                <h3 class="price">11.550 €</h3>
-                                                <p class="price">(15 minutes)</p>
-                                            </div>
-                                            <div class="doubleprice">
-                                                <h3 class="price">27.500 €</h3>
-                                                <p class="price">(25 minutes)</p>
-                                            </div>
-                                        </div>
+                                    <div class="doubleprice">
+                                        <h3 class="price">11.550 €</h3>
+                                        <p class="price">(15 minutes)</p>
                                     </div>
+                                    <div class="doubleprice">
+                                        <h3 class="price">27.500 €</h3>
+                                        <p class="price">(25 minutes)</p>
+                                    </div>
+                                    <div class="doubleprice-after"></div>
                                 </div>
                             </div>
--->
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
 
