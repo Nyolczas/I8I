@@ -209,33 +209,29 @@ if (!isset($_SESSION['belepett'])) {
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="clearfix">
-                                <p>
-                                    <a class="btn btn-primary clearfix" data-toggle="collapse" href="#stringAndKeysShow" aria-expanded="false" aria-controls="stringAndKeysShow">
-                                    <img class="img-responsive btnImage" src="img\premium_6_strings.jpg" alt="Adam and Eve">STRINGS & KEYS
-                                </a>
-                                </p>
-                                <div class="collapse clearfix" id="stringAndKeysShow">
-                                    <div class="card card-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/p6A6mM-fYuQ" frameborder="0" allowfullscreen></iframe>
-                                        </div>
-                                        <div class="card-txt">
-                                            <small class="descript">
+                            <div class="flip" id="flip6">
+                                <div id="video6" class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/p6A6mM-fYuQ" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <img id="image6" class="img-responsive" src="img\premium_6_strings.jpg" alt="STRINGS & KEYS">
+                                <h2 class="cim" id="cim5"> STRINGS & KEYS </h2>
+                            </div>
+                            <div class="panel" id="panel6">
+                                <div class="card-txt">
+                                    <small class="descript">
                                             Nine classical music pieces played on piano and harp. The projected animations are sound reactive to create an immersive
                                             audiovisual performance.
                                         </small>
-                                            <p class="specifi">
-                                                Length:
-                                                <strong>45 minutes</strong>
-                                                <br> Crew:
-                                                <strong>2 musicians,
+                                    <p class="specifi">
+                                        Length:
+                                        <strong>45 minutes</strong>
+                                        <br> Crew:
+                                        <strong>2 musicians,
                                                 <br> 1 manager, 1 technician, 1 assistant</strong>
-                                            </p>
-                                            <h3 class="price">27.500 €</h3>
-                                        </div>
-                                    </div>
+                                    </p>
+                                    <h3 class="price">27.500 €</h3>
                                 </div>
                             </div>
                         </div>
