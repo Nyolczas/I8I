@@ -158,67 +158,54 @@ if (!isset($_SESSION['belepett'])) {
                                     <h3 class="price">27.500 €</h3>
                                 </div>
                             </div>
-
                         </div>
 
                         <div class="col-md-6 col-lg-4 col-xl-4">
-
-                            <div class="clearfix">
-                                <p>
-                                    <a class="btn btn-primary clearfix" data-toggle="collapse" href="#butterflyShow" aria-expanded="false" aria-controls="butterflyShow">
-                                    <img class="img-responsive btnImage" src="img\premium_4_butterfly.jpg" alt="Adam and Eve">BUTTERFLY
-                                </a>
-                                </p>
-                                <div class="collapse clearfix" id="butterflyShow">
-                                    <div class="card card-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ptRATwM1qFw" frameborder="0" allowfullscreen></iframe>
-                                        </div>
-                                        <div class="card-txt">
-                                            <small class="descript">
+                            <div class="flip" id="flip4">
+                                <div id="video4" class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ptRATwM1qFw" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <img id="image4" class="img-responsive" src="img\premium_4_butterfly.jpg" alt="BUTTERFLY">
+                                <h2 class="cim" id="cim4"> BUTTERFLY </h2>
+                            </div>
+                            <div class="panel" id="panel4">
+                                <div class="card-txt">
+                                    <small class="descript">
                                             Amazing interactive audiovisual experience performed by one singer, mixed with dress and stage mapping.
                                         </small>
-                                            <p class="specifi">
-                                                Length:
-                                                <strong>5 minutes</strong>
-                                                <br> Crew:
-                                                <strong>1 singer,
+                                    <p class="specifi">
+                                        Length:
+                                        <strong>5 minutes</strong>
+                                        <br> Crew:
+                                        <strong>1 singer,
                                                 <br> 1 technician, 1 assistant</strong>
-                                            </p>
-                                            <h3 class="price">11.550 €</h3>
-                                        </div>
-                                    </div>
+                                    </p>
+                                    <h3 class="price">11.550 €</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
-
-                            <div class="clearfix">
-                                <p>
-                                    <a class="btn btn-primary clearfix" data-toggle="collapse" href="#martialArtsShow" aria-expanded="false" aria-controls="martialArtsShow">
-                                    <img class="img-responsive btnImage" src="img\premium_5_martial.jpg" alt="Adam and Eve">MARTIAL ARTS SHOW
-                                </a>
-                                </p>
-                                <div class="collapse clearfix" id="martialArtsShow">
-                                    <div class="card card-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FVSrzcfiQVo" frameborder="0" allowfullscreen></iframe>
-                                        </div>
-                                        <div class="card-txt">
-                                            <small class="descript">
+                            <div class="flip" id="flip5">
+                                <div id="video5" class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FVSrzcfiQVo" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <img id="image5" class="img-responsive" src="img\premium_5_martial.jpg" alt="MARTIAL ARTS SHOW">
+                                <h2 class="cim" id="cim5"> MARTIAL ARTS SHOW </h2>
+                            </div>
+                            <div class="panel" id="panel5">
+                                <div class="card-txt">
+                                    <small class="descript">
                                             Adventures of the master martial artist. Coreographed fighting show where the hero has the ability to control the four basic
                                             elements: fire, water, earth and wind.
                                         </small>
-                                            <p class="specifi">
-                                                Length:
-                                                <strong>5 minutes</strong>
-                                                <br> Crew:
-                                                <strong>1 dancer,
+                                    <p class="specifi">
+                                        Length:
+                                        <strong>5 minutes</strong>
+                                        <br> Crew:
+                                        <strong>1 dancer,
                                                 <br> 1 technician, 1 assistant</strong>
-                                            </p>
-                                            <h3 class="price">5.400 €</h3>
-                                        </div>
-                                    </div>
+                                    </p>
+                                    <h3 class="price">5.400 €</h3>
                                 </div>
                             </div>
                         </div>

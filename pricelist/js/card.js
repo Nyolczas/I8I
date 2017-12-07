@@ -44,7 +44,18 @@ $(document).ready(function () {
     });
 
     //   ======================== flip 4 ========================
+     $("#flip4").mouseenter(function () {
+        $("#cim4").css("color", "white");
+    });
+    $("#flip4").mouseleave(function () {
+        $("#cim4").css("color", "rgba(255, 255, 255, 0.9)");
+    });
+
     $("#flip4").click(function () {
         $("#panel4").slideToggle("slow");
+        $("#flip4").css("box-shadow", "0 0 1rem 0.1rem rgba(28, 211, 255, 0.5)");
+        $("#image4").hide();
+        $("#video4").css("display", "block");
     });
+
 });
