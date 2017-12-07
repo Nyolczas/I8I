@@ -135,35 +135,30 @@ if (!isset($_SESSION['belepett'])) {
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
-
-                            <div class="clearfix">
-                                <p>
-                                    <a class="btn btn-primary clearfix" data-toggle="collapse" href="#scienceShow" aria-expanded="false" aria-controls="scienceShow">
-                                    <img class="img-responsive btnImage" src="img\premium_3_science.jpg" alt="Adam and Eve">25 MINUTES FREELUSION SCIENCE SHOW
-                                </a>
-                                </p>
-                                <div class="collapse clearfix" id="scienceShow">
-                                    <div class="card card-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vsbcHjI6TSo" frameborder="0" allowfullscreen></iframe>
-                                        </div>
-                                        <div class="card-txt">
-                                            <small class="descript">
+                            <div class="flip" id="flip3">
+                                <div id="video3" class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vsbcHjI6TSo" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <img id="image3" class="img-responsive" src="img\premium_3_science.jpg" alt="FREELUSION SCIENCE SHOW">
+                                <h2 class="cim" id="cim3"> FREELUSION SCIENCE SHOW </h2>
+                            </div>
+                            <div class="panel" id="panel3">
+                                <div class="card-txt">
+                                    <small class="descript">
                                             Professional on-stage technology focused performance with large staff suitable for big sized screens and stages based on
                                             fully detailed graphic content with interactive dance.
                                         </small>
-                                            <p class="specifi">
-                                                Length:
-                                                <strong>15-25 minutes</strong>
-                                                <br> Crew:
-                                                <strong>10 dancers,
+                                    <p class="specifi">
+                                        Length:
+                                        <strong>15-25 minutes</strong>
+                                        <br> Crew:
+                                        <strong>10 dancers,
                                                 <br> 1 manager, 1 technician, 1 assistant</strong>
-                                            </p>
-                                            <h3 class="price">27.500 €</h3>
-                                        </div>
-                                    </div>
+                                    </p>
+                                    <h3 class="price">27.500 €</h3>
                                 </div>
                             </div>
+
                         </div>
 
                         <div class="col-md-6 col-lg-4 col-xl-4">

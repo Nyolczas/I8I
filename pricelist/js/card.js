@@ -29,8 +29,18 @@ $(document).ready(function () {
         $("#video2").css("display", "block");
     });
     //   ======================== flip 3 ========================
+    $("#flip3").mouseenter(function () {
+        $("#cim3").css("color", "white");
+    });
+    $("#flip3").mouseleave(function () {
+        $("#cim3").css("color", "rgba(255, 255, 255, 0.9)");
+    });
+
     $("#flip3").click(function () {
         $("#panel3").slideToggle("slow");
+        $("#flip3").css("box-shadow", "0 0 1rem 0.1rem rgba(28, 211, 255, 0.5)");
+        $("#image3").hide();
+        $("#video3").css("display", "block");
     });
 
     //   ======================== flip 4 ========================
