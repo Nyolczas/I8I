@@ -121,7 +121,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 
 .panel {
     color: white;
-    margin-top: -1rem;
+/*    margin-top: -1rem;*/
     margin-bottom: 1rem;
     padding: 0;
     box-shadow: 0 0 1rem 0.1rem rgba(0,123,255,.5);
