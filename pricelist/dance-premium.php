@@ -77,6 +77,13 @@ if (!isset($_SESSION['belepett'])) {
                     <h1 class="h1-shows">Premium Dance Shows</h1>
                     <div class="row row-shows">
                         <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="flip" id="flip2">
+                            <img class="img-responsive btnImage" src="img\premium_1_adameve.jpg" alt="Adam and Eve">
+                            AGT 2015 ADAM & EVE SHOW
+                            </div>
+                            <div class="panel" id="panel2">
+                            </div>
+                            
                             <div class="clearfix">
                                 <p>
                                     <a class="btn btn-primary clearfix" data-toggle="collapse" href="#agtAdamEve" aria-expanded="false" aria-controls="agtAdamEve">
