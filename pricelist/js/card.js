@@ -10,6 +10,8 @@ $(document).ready(function () {
     $("#flip1").click(function () {
         $("#panel1").slideToggle("slow");
         $("#flip1").css("box-shadow", "0 0 1rem 0.1rem rgba(28, 211, 255, 0.5)");
+        $("#image1").hide();
+        $("#video1").css("display", "block");
     });
 
     //   ======================== flip 2 ========================   
@@ -26,6 +28,4 @@ $(document).ready(function () {
     $("#flip4").click(function () {
         $("#panel4").slideToggle("slow");
     });
-
-
 });
