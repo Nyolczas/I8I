@@ -28,7 +28,27 @@ if (!isset($_SESSION['belepett'])) {
         <!-- Custom styles -->
         <link href="css/pricelist-basic.css" rel="stylesheet">
         <link href="css/pricelist-cards.css" rel="stylesheet">
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                        $("#video1").hide;
+                        $("#flip1").click(function() {
+                            $("#image1").hide;
+                            $("#video1").show;
+                            $("#panel1").slideToggle("slow");
+                            $("#flip2").click(function() {
+                                $("#panel2").slideToggle("slow");
+                            });
+                            $("#flip3").click(function() {
+                                $("#panel3").slideToggle("slow");
+                            });
+                            $("#flip4").click(function() {
+                                $("#panel4").slideToggle("slow");
+                            });
+                        });
+            }
+
+        </script>
     </head>
 
     <body>
@@ -79,13 +99,12 @@ if (!isset($_SESSION['belepett'])) {
                     <div class="row row-shows">
                         <div class="col-md-6 col-lg-4 col-xl-4">
                             <div class="flip" id="flip1">
-                               <div class="embed-responsive embed-responsive-16by9" id="video1">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J7ENd8i9Bi4" frameborder="0" allowfullscreen></iframe>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe id="video1" class="embed-responsive-item" src="https://www.youtube.com/embed/J7ENd8i9Bi4" frameborder="0" allowfullscreen></iframe>
                                 </div>
-                                <img class="img-responsive" src="img\premium_1_adameve.jpg" alt="Adam and Eve" id="image1"> AGT 2015 ADAM & EVE SHOW
+                                <img id="image1" class="img-responsive" src="img\premium_1_adameve.jpg" alt="Adam and Eve"> AGT 2015 ADAM & EVE SHOW
                             </div>
                             <div class="panel" id="panel1">
-                
                                 <div class="card-txt">
                                     <small class="descript">
                                             This unique performance was the base of our America’s Got Talent success in 2015 which put Freelusion into the Semi-finals
@@ -103,7 +122,6 @@ if (!isset($_SESSION['belepett'])) {
                                     <h3 class="price">13.750 €</h3>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
 
@@ -403,6 +421,7 @@ if (!isset($_SESSION['belepett'])) {
         <script src="js/card.js"></script>
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
+
         </script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
