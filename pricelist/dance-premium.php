@@ -18,37 +18,15 @@ if (!isset($_SESSION['belepett'])) {
         <link rel="icon" type="image/png" href="img/freelusion-icon.png">
 
         <title>Dance Shows | FREELUSION Price List</title>
-
+        <!--   ================================ css reset ================================ -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-        <!-- Bootstrap core CSS -->
+        <!--   ================================ Bootstrap styles ================================ -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <!-- social media -->
+        <!--   ================================ social media ================================ -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <!-- Custom styles -->
+        <!--   ================================ My styles ================================ -->
         <link href="css/pricelist-basic.css" rel="stylesheet">
         <link href="css/pricelist-cards.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                        $("#video1").hide;
-                        $("#flip1").click(function() {
-                            $("#image1").hide;
-                            $("#video1").show;
-                            $("#panel1").slideToggle("slow");
-                            $("#flip2").click(function() {
-                                $("#panel2").slideToggle("slow");
-                            });
-                            $("#flip3").click(function() {
-                                $("#panel3").slideToggle("slow");
-                            });
-                            $("#flip4").click(function() {
-                                $("#panel4").slideToggle("slow");
-                            });
-                        });
-            }
-
-        </script>
     </head>
 
     <body>
@@ -105,7 +83,7 @@ if (!isset($_SESSION['belepett'])) {
                                 <img id="image1" class="img-responsive" src="img\premium_1_adameve.jpg" alt="Adam and Eve"> AGT 2015 ADAM & EVE SHOW
                             </div>
                             <div class="panel" id="panel1">
-                                <div class="card-txt">
+                                <div class="">
                                     <small class="descript">
                                             This unique performance was the base of our America’s Got Talent success in 2015 which put Freelusion into the Semi-finals
                                             and an invitation as a special guest performance in the Finals.
@@ -417,18 +395,21 @@ if (!isset($_SESSION['belepett'])) {
 
         <!-- ==================================================  -->
         <!-- MyScript -->
-        <!-- Custom JQuery scripts -->
-        <script src="js/card.js"></script>
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
 
         </script>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!--   ================================ Bootstrap sripts ================================ -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="https://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+        <!--   ================================ JQuery sripts ================================ -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+
+        </script>
+        <!--   ================================ My sripts ================================ -->
+        <script src="js/card.js"></script>
     </body>
 
     </html>
