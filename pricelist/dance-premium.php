@@ -27,7 +27,8 @@ if (!isset($_SESSION['belepett'])) {
 
         <!-- Custom styles -->
         <link href="css/pricelist-basic.css" rel="stylesheet">
-        <link href="css/pricelist.css" rel="stylesheet">
+        <link href="css/pricelist-cards.css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -78,42 +79,30 @@ if (!isset($_SESSION['belepett'])) {
                     <div class="row row-shows">
                         <div class="col-md-6 col-lg-4 col-xl-4">
                             <div class="flip" id="flip2">
-                            <img class="img-responsive btnImage" src="img\premium_1_adameve.jpg" alt="Adam and Eve">
-                            AGT 2015 ADAM & EVE SHOW
+                                <img class="img-responsive" src="img\premium_1_adameve.jpg" alt="Adam and Eve"> AGT 2015 ADAM & EVE SHOW
                             </div>
                             <div class="panel" id="panel2">
-                            </div>
-                            
-                            <div class="clearfix">
-                                <p>
-                                    <a class="btn btn-primary clearfix" data-toggle="collapse" href="#agtAdamEve" aria-expanded="false" aria-controls="agtAdamEve">
-                                    <img class="img-responsive btnImage" src="img\premium_1_adameve.jpg" alt="Adam and Eve"> AGT 2015 ADAM & EVE PROJECTION DANCE
-                                </a>
-                                </p>
-                                <div class="collapse clearfix" id="agtAdamEve">
-                                    <div class="card card-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J7ENd8i9Bi4" frameborder="0" allowfullscreen></iframe>
-                                        </div>
-                                        <div class="card-txt">
-                                            <small class="descript">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J7ENd8i9Bi4" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="card-txt">
+                                    <small class="descript">
                                             This unique performance was the base of our America’s Got Talent success in 2015 which put Freelusion into the Semi-finals
                                             and an invitation as a special guest performance in the Finals.
                                         </small>
-                                            <p class="specifi">
-                                                Length:
-                                                <strong>5 minutes</strong>
-                                                <br> Crew:
-                                                <strong>3 dancers,
+                                    <p class="specifi">
+                                        Length:
+                                        <strong>5 minutes</strong>
+                                        <br> Crew:
+                                        <strong>3 dancers,
                                                 <br> 1 manager, 1 technician, 1 assistant</strong>
-                                                <br> Special offer:
-                                                <strong>the same AGT TV show dancers for an extra 4.000 EUR</strong>
-                                            </p>
-                                            <h3 class="price">13.750 €</h3>
-                                        </div>
-                                    </div>
+                                        <br> Special offer:
+                                        <strong>the same AGT TV show dancers for an extra 4.000 EUR</strong>
+                                    </p>
+                                    <h3 class="price">13.750 €</h3>
                                 </div>
                             </div>
+
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
 

@@ -63,7 +63,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     /* padding: 0; */
 }
 
-.btn {
+.flip {
     font-weight: 600;
     text-align: left;
     white-space: inherit;
@@ -81,7 +81,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.btn:hover {
+.flip:hover {
     background : -moz-linear-gradient(0% 50% 0deg,rgba(224, 7, 136, 1) 0%,rgba(135, 36, 132, 1) 33%,rgba(25, 94, 159, 1) 68.15%,rgba(0, 145, 194, 1) 100%);
     background : -webkit-linear-gradient(0deg, rgba(224, 7, 136, 1) 0%, rgba(135, 36, 132, 1) 33%, rgba(25, 94, 159, 1) 68.15%, rgba(0, 145, 194, 1) 100%);
     background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(224, 7, 136, 1) ),color-stop(0.33,rgba(135, 36, 132, 1) ),color-stop(0.6815,rgba(25, 94, 159, 1) ),color-stop(1,rgba(0, 145, 194, 1) ));
@@ -119,7 +119,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     margin-bottom: 1rem;
 }
 
-.card-body {
+.panel {
     color: white;
     margin-top: -1rem;
     margin-bottom: 1rem;
@@ -163,10 +163,12 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     width: 100%;
 }
 
-.btnImage {
-    width: 50%;
+.img-responsive {
+    width: 100%;
+/*
     float: left;
     margin: -0.4rem 0.6rem -0.4rem -0.2rem;
+*/
 }
 
 .price {
