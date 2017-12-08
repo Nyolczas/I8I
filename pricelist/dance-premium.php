@@ -216,7 +216,7 @@ if (!isset($_SESSION['belepett'])) {
                                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/p6A6mM-fYuQ" frameborder="0" allowfullscreen></iframe>
                                 </div>
                                 <img id="image6" class="img-responsive" src="img\premium_6_strings.jpg" alt="STRINGS & KEYS">
-                                <h2 class="cim" id="cim5"> STRINGS & KEYS </h2>
+                                <h2 class="cim" id="cim6"> STRINGS & KEYS </h2>
                             </div>
                             <div class="panel" id="panel6">
                                 <div class="card-txt">
@@ -236,40 +236,36 @@ if (!isset($_SESSION['belepett'])) {
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="clearfix">
-                                <p>
-                                    <a class="btn btn-primary clearfix" data-toggle="collapse" href="#bigScreenShow" aria-expanded="false" aria-controls="bigScreenShow">
-                                    <img class="img-responsive btnImage" src="img\premium_7_bigscreen.jpg" alt="Adam and Eve">BIG SCREEN
-                                </a>
-                                </p>
-                                <div class="collapse clearfix" id="bigScreenShow">
-                                    <div class="card card-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/g1XMz7d-hVA" frameborder="0" allowfullscreen></iframe>
-                                        </div>
-                                        <div class="card-txt">
-                                            <small class="descript">
+                            <div class="flip" id="flip7">
+                                <div id="video7" class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/g1XMz7d-hVA" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <img id="image7" class="img-responsive" src="img\premium_7_bigscreen.jpg" alt="BIG SCREEN">
+                                <h2 class="cim" id="cim7"> BIG SCREEN </h2>
+                            </div>
+                            <div class="panel" id="panel7">
+                                <div class="card-txt">
+                                    <small class="descript">
                                             The popular 3D projection dance show with cubes designed for big size stages and screens. There are options for 6 or 9 dancers
                                             package.
                                         </small>
-                                            <p class="specifi">
-                                                Length:
-                                                <strong>5 minutes</strong>
-                                                <br> Crew:
-                                                <strong>6 or 9 dancers,
+                                    <p class="specifi">
+                                        Length:
+                                        <strong>5 minutes</strong>
+                                        <br> Crew:
+                                        <strong>6 or 9 dancers,
                                                 <br> 1 manager,
                                                 <br> 1 technician, 1 assistant</strong>
-                                            </p>
-                                            <div class="doubleprice">
-                                                <h3 class="price">11.550 €</h3>
-                                                <p class="price">(6 dancers)</p>
-                                            </div>
-                                            <div class="doubleprice">
-                                                <h3 class="price">14.850 €</h3>
-                                                <p class="price">(9 dancers)</p>
-                                            </div>
-                                        </div>
+                                    </p>
+                                    <div class="doubleprice">
+                                        <h3 class="price">11.550 €</h3>
+                                        <p class="price">(6 dancers)</p>
                                     </div>
+                                    <div class="doubleprice">
+                                        <h3 class="price">14.850 €</h3>
+                                        <p class="price">(9 dancers)</p>
+                                    </div>
+                                    <div class="doubleprice-after"></div>
                                 </div>
                             </div>
                         </div>
