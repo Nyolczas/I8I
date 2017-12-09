@@ -1,15 +1,27 @@
 /* ==== GENERAL STYLES ==== */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Spectral+SC&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700&subset=latin-ext');
 
 * {
     box-sizing: border-box;
 }
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+}
 
 body {
-    background-color: #131a29;
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
 }
 
 /* ==== HEADER CSS ==== */
@@ -28,10 +40,12 @@ header img {
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 100%;
     padding: .25rem;
+    margin-top: -180px;
 }
 
 header h1 {
-    font-family: 'Spectral SC', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     color: rgba(0, 0, 0, 0.75);
     font-size: 1.75rem;
     margin: .67rem 0;
@@ -44,6 +58,7 @@ header h2 {
 
 #demo {
     text-align: center;
+    font-weight: 700;
     letter-spacing: .03rem;
     margin-top: 3rem;
     line-height: 1.5rem;
@@ -56,11 +71,17 @@ header h2 {
     margin: auto;
 }
 
-.hamburger {
-    background: none;
+.menubox {
+    background: #f1f1f1;
+}
+.hamburger, .cross, #menu {
     position: absolute;
-    top: 10px;
-    left: calc(50% - 360px);
+    top: -60px;
+    left: 50%;
+    transform: translate(150px, 0);
+}
+.hamburger {
+    border-radius:50%;
     line-height: 45px;
     padding: 5px 15px 0px 15px;
     color: rgb(0, 0, 0);
@@ -69,15 +90,11 @@ header h2 {
     font-weight: bold;
     cursor: pointer;
     outline: none;
-    z-index: 10000000000000;
 }
 
 .cross {
-    background: none;
-    position: absolute;
-    top: 10px;
-    left: calc(50% - 360px);
-    padding: 7px 15px 0px 15px;
+    border-radius: 50%;
+    padding: 7px 17px 0px 17px;
     color: rgb(0, 0, 0);
     border: 0;
     font-size: 3em;
@@ -85,16 +102,15 @@ header h2 {
     font-weight: bold;
     cursor: pointer;
     outline: none;
-    z-index: 10000000000000;
 }
 
 #menu {
+    top: 1px;
     z-index: 1000000;
     font-weight: bold;
     font-size: 0.8em;
     width: 200px;
     background: #f1f1f1;
-    position: absolute;
     text-align: center;
     font-size: 12px;
 }

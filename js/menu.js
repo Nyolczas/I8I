@@ -10,9 +10,8 @@ $(document).ready(function () {
   });
 
   $(".cross").click(function () {
-    $("#menu").slideToggle("slow", function () {
-      $(".cross").hide();
-      $(".hamburger").show();
-    });
+    $(".cross").hide();
+    $(".hamburger").show();
+    $("#menu").slideToggle("slow");
   });
 });
