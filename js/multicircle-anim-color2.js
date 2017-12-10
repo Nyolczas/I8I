@@ -7,7 +7,7 @@ canvas.width = W;
 canvas.height = H;
 
 var c = canvas.getContext('2d');
-// ============================================= Set canvas color
+// ============================================= Set html colors
 function counter(x) {
     if (x == 360) {
         return 1;
