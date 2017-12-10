@@ -47,6 +47,7 @@ function colorClock() {
     navIcon.style.boxShadow = bxshdw.concat(fullColor);
     alsokor.style.boxShadow = bxshdw.concat(fullColor);
     headerImg.style.boxShadow = bxshdw.concat(fullColor);
+    menu.style.boxShadow = bxshdw.concat(fullColor);
 
     var bordR = '4px solid ';
     headerImg.style.border = bordR.concat(lightColor);
