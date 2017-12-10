@@ -1,17 +1,8 @@
 $(document).ready(function () {
 
-  $(".cross").hide();
-  $("#menu").hide();
-  $(".hamburger").click(function () {
-    $("#menu").slideToggle("slow", function () {
-      $(".hamburger").hide();
-      $(".cross").show();
-    });
-  });
-
-  $(".cross").click(function () {
-    $(".cross").hide();
-    $(".hamburger").show();
+  $("#nav-icon").click(function () {
+    $("#nav-icon").toggleClass('open');
     $("#menu").slideToggle("slow");
   });
+
 });
