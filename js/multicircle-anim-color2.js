@@ -11,6 +11,7 @@ var c = canvas.getContext('2d');
 var header = document.getElementById('header');
 var demo = document.getElementById('demo');
 var navIcon = document.getElementById('nav-icon');
+var menu = document.getElementById('menu');
 function counter(x) {
     if (x == 360) {
         return 1;
@@ -26,12 +27,14 @@ function colorClock() {
     }, 100);
 
     var darkColor = 'hsl(' + cnt + ', 80%, 10%)';
-    var lightColor= 'hsl(' + cnt + ', 50%, 80%)';
+    var lightColor= 'hsl(' + cnt + ', 80%, 100%)';
     var fullColor= 'hsl(' + cnt + ', 80%, 50%)';
+    var leadColor= 'hsl(' + cnt + ', 100%, 80%)';
     document.body.style.background = darkColor;
-    header.style.backgroundColor  = lightColor;
+    header.style.backgroundColor  = leadColor;
     demo.style.backgroundColor  = darkColor;
     navIcon.style.backgroundColor  = fullColor;
+    menu.style.backgroundColor  = leadColor;
 };
 colorClock();
 // ============================================= ============================================= =============================================
