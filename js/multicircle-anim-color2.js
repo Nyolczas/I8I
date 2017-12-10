@@ -12,6 +12,7 @@ var header = document.getElementById('header');
 var demo = document.getElementById('demo');
 var navIcon = document.getElementById('nav-icon');
 var menu = document.getElementById('menu');
+var menuLi = document.getElementById('menu-li');
 var alsokor = document.getElementById('alsokor');
 var headerImg = document.getElementById('header-img');
 
@@ -32,26 +33,35 @@ function colorClock() {
 
     var darkColor = 'hsl(' + cnt + ', 80%, 10%)';
     var darkfullColor = 'hsl(' + cnt + ', 100%, 25%)';
-    var lightColor= 'hsl(' + cnt + ', 100%, 90%)';
-    var fullColor= 'hsl(' + cnt + ', 80%, 60%)';
-    var leadColor= 'hsl(' + cnt + ', 100%, 80%)';
+    var lightColor = 'hsl(' + cnt + ', 100%, 90%)';
+    var fullColor = 'hsl(' + cnt + ', 80%, 60%)';
+    var leadColor = 'hsl(' + cnt + ', 100%, 80%)';
 
     document.body.style.background = darkColor;
-    header.style.backgroundColor  = leadColor;
-    demo.style.backgroundColor  = darkfullColor;
-    navIcon.style.backgroundColor  = fullColor;
-    menu.style.backgroundColor  = leadColor;
+    header.style.backgroundColor = leadColor;
+    demo.style.backgroundColor = darkfullColor;
+    navIcon.style.backgroundColor = fullColor;
+    menu.style.backgroundColor = leadColor;
+
     var bxshdw = '0px 0px 30px ';
     navIcon.style.boxShadow = bxshdw.concat(fullColor);
     alsokor.style.boxShadow = bxshdw.concat(fullColor);
     headerImg.style.boxShadow = bxshdw.concat(fullColor);
+
     var bordR = '4px solid ';
-    headerImg.style.border =bordR.concat(lightColor);
-    alsokor.style.border =bordR.concat(lightColor);
-    navIcon.style.border =bordR.concat(lightColor);
-    menu.style.border =bordR.concat(lightColor);
+    headerImg.style.border = bordR.concat(lightColor);
+    alsokor.style.border = bordR.concat(lightColor);
+    navIcon.style.border = bordR.concat(lightColor);
+    menu.style.border = bordR.concat(lightColor);
+
+
 };
+
+
 colorClock();
+
+
+
 // ============================================= ============================================= =============================================
 // ============================================= Animated circles =============================================
 // c.strokeStyle = 'rgba(255, 255, 255, 0.1)';
@@ -109,7 +119,7 @@ function Circle(x, y, xSpeed, ySpeed, radius) {
         // interaktivity
         if (mouse.x - this.x < mouseField && mouse.x - this.x > -mouseField
             && mouse.y - this.y < mouseField && mouse.y - this.y > -mouseField) {
-            if (this.radius < maxRadius*3) {
+            if (this.radius < maxRadius * 3) {
                 this.radius++;
             }
         } else if (this.radius > this.minRadius) {

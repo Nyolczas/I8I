@@ -56,7 +56,7 @@ header h2 {
     font-size: 1rem;
     letter-spacing: .02rem;
     padding: 0.8rem 1.8rem 1.5rem 1.8rem;
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 1);
 }
 
 #demo {
@@ -90,7 +90,7 @@ header h2 {
     z-index: 10000;
     position: absolute;
     right: -250px;
-    top: -70px;
+    top: 50px;
     width: 200px;
 }
  
@@ -195,6 +195,7 @@ header h2 {
 }
 
 #menu li {
+    cursor: pointer;
     display: block;
     padding: 15px;
     border-bottom: #dddddd 1px solid;
@@ -202,20 +203,12 @@ header h2 {
 
 #menu li a {
     text-decoration: none;
+    color: black;
 
 }
 
 #menu li:hover {
-    /* display: block; */
-    background: #ffffff;
-}
-
-#menu ul li a:hover {
-    color: #666;
-}
-
-#menu a:hover {
-    color: #666;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 /* ================================================ /Menü ================================================ */
