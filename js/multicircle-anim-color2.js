@@ -8,6 +8,9 @@ canvas.height = H;
 
 var c = canvas.getContext('2d');
 // ============================================= Set html colors
+var header = document.getElementById('header');
+var demo = document.getElementById('demo');
+var navIcon = document.getElementById('nav-icon');
 function counter(x) {
     if (x == 360) {
         return 1;
@@ -22,8 +25,13 @@ function colorClock() {
         colorClock();
     }, 100);
 
-    var hslColor = 'hsl(' + cnt + ', 80%, 10%)';
-    document.body.style.background = hslColor;
+    var darkColor = 'hsl(' + cnt + ', 80%, 10%)';
+    var lightColor= 'hsl(' + cnt + ', 50%, 80%)';
+    var fullColor= 'hsl(' + cnt + ', 80%, 50%)';
+    document.body.style.background = darkColor;
+    header.style.backgroundColor  = lightColor;
+    demo.style.backgroundColor  = darkColor;
+    navIcon.style.backgroundColor  = fullColor;
 };
 colorClock();
 // ============================================= ============================================= =============================================
