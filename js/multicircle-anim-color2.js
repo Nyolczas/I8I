@@ -12,6 +12,10 @@ var header = document.getElementById('header');
 var demo = document.getElementById('demo');
 var navIcon = document.getElementById('nav-icon');
 var menu = document.getElementById('menu');
+var alsokor = document.getElementById('alsokor');
+var headerImg = document.getElementById('header-img');
+
+
 function counter(x) {
     if (x == 360) {
         return 1;
@@ -27,14 +31,25 @@ function colorClock() {
     }, 100);
 
     var darkColor = 'hsl(' + cnt + ', 80%, 10%)';
-    var lightColor= 'hsl(' + cnt + ', 80%, 100%)';
-    var fullColor= 'hsl(' + cnt + ', 80%, 50%)';
+    var darkfullColor = 'hsl(' + cnt + ', 100%, 25%)';
+    var lightColor= 'hsl(' + cnt + ', 100%, 90%)';
+    var fullColor= 'hsl(' + cnt + ', 80%, 60%)';
     var leadColor= 'hsl(' + cnt + ', 100%, 80%)';
+
     document.body.style.background = darkColor;
     header.style.backgroundColor  = leadColor;
-    demo.style.backgroundColor  = darkColor;
+    demo.style.backgroundColor  = darkfullColor;
     navIcon.style.backgroundColor  = fullColor;
     menu.style.backgroundColor  = leadColor;
+    var bxshdw = '0px 0px 30px ';
+    navIcon.style.boxShadow = bxshdw.concat(fullColor);
+    alsokor.style.boxShadow = bxshdw.concat(fullColor);
+    headerImg.style.boxShadow = bxshdw.concat(fullColor);
+    var bordR = '4px solid ';
+    headerImg.style.border =bordR.concat(lightColor);
+    alsokor.style.border =bordR.concat(lightColor);
+    navIcon.style.border =bordR.concat(lightColor);
+    menu.style.border =bordR.concat(lightColor);
 };
 colorClock();
 // ============================================= ============================================= =============================================
