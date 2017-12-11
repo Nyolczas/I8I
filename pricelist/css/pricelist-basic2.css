@@ -24,6 +24,11 @@ main {
     padding-top: 100px;
 }
 
+.jumbotron-shows {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* ================================ NAVBAR ================================ */
 
 .bg-dark {

@@ -26,7 +26,6 @@ if (!isset($_SESSION['belepett'])) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--   ================================ My styles ================================ -->
         <link href="css/pricelist-basic2.css" rel="stylesheet">
-<!--        <link href="css/pricelist-intro.css" rel="stylesheet">-->
     </head>
 
     <body>
@@ -42,7 +41,7 @@ if (!isset($_SESSION['belepett'])) {
                 <div class="collapse navbar-collapse" id="pricelistNavbar">
                     <ul class="navbar-nav navbar-right bottom-align">
                         <li class="nav-item">
-                            <a class="nav-link active" href="introdution.php">Introducion</a>
+                            <a class="nav-link active" href="introdution.php">Introduction</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dance Shows</a>
@@ -81,7 +80,9 @@ if (!isset($_SESSION['belepett'])) {
         <main>
             <div class="container">
                 <!-- Az oldal tartalma -->
-
+                <div class="jumbotron jumbotron-shows">
+                    <h1 class="h1-shows">Introduction</h1>
+                </div>
                 <!-- / Az oldal tartalma -->
             </div>
             <!-- /.container -->
