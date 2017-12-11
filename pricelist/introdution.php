@@ -26,6 +26,8 @@ if (!isset($_SESSION['belepett'])) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--   ================================ My styles ================================ -->
         <link href="css/pricelist-basic2.css" rel="stylesheet">
+        <link href="css/intro.css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -78,13 +80,59 @@ if (!isset($_SESSION['belepett'])) {
         </nav>
         <!-- /.navbar -->
         <main>
-            <div class="container">
                 <!-- Az oldal tartalma -->
-                <div class="jumbotron jumbotron-shows">
-                    <h1 class="h1-shows">Introduction</h1>
-                </div>
+                    <div class="bgimg-1">
+                        <div class="caption">
+                            <span class="border">Introduction</span>
+                        </div>
+                    </div>
+
+                    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+                        <p>
+                            Freelusion is the biggest - with 20 inhouse, full-time specialists - and most experienced graphic design studio specialized for, but not limited to video mapping solutions.
+                        </p>
+                    </div>
+
+                    <div class="bgimg-2">
+                        <div class="caption">
+                            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+                        </div>
+                    </div>
+
+                    <div style="position:relative;">
+                        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                            <p>
+                            We are particularly proud of our exclusive clientele and the unique 3D spectacles we have put on stage and on various canvases throughout the years. Since 2009, we have had over 200 shows in more than 40 countries on 5 continents.
+                        </p>
+                        <p>
+                            With more than 20 existing short shows and 3 different full night shows plus 50+ unique tailor-made corporate shows in our arsenal, we are the Planet’s very first and most experienced 3D dance company. Why choose any if you can have the best?
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="bgimg-3">
+                        <div class="caption">
+                            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+                        </div>
+                    </div>
+
+                    <div style="position:relative;">
+                        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                            <p>
+                            Our globetrotting dance company has been on primetime talent shows such as America’s Got Talent (Best Dance Act at Season 10), Britain’s Got Talent (Viewers’ Choice 3rd Prize), and Fake Off (Finalists), Arabs Got Talent (Finalists), Minita TV Show (Finalists) and has been invited to dozens of other TV productions in Europe and Asia.
+                        </p>
+                        <p>
+                            Freelusion is also proud to be partner of world’s top artist like Criss Angel, TLC, Cirque de Monte Carlo, Tim Burton and many more.
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="bgimg-1">
+                        <div class="caption">
+                            <span class="border">COOL!</span>
+                        </div>
+                    </div>
                 <!-- / Az oldal tartalma -->
-            </div>
             <!-- /.container -->
         </main>
 
