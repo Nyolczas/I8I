@@ -1,54 +1,5 @@
 
-/* ================================ NAVBAR ================================ */
-
-.bg-dark {
-    background-color: #000000!important;
-}
-
-/* aktív hamburgermenü - kontúr eltüntetés */
-button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
-    border: 1px solid rgba(207, 6, 123, 0.25);
-    outline: none;
-}
-
-.navlogo {
-    margin-bottom: 0.5rem;
-}
-
-@media screen and (max-width:768px) {
-    .nav-link {
-       margin-left: 2rem; 
-    }
-}
-
-@media screen and (min-width:768px) {
-    .nav-link {
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-        margin-top: 5px;
-    }
-
-    .navlogo {
-        margin-bottom: 0;
-    }
-}
-
-@media screen and (min-width:992px) {
-    .nav-link {
-        margin-top: 35px;
-    }
-}
-
-/* ================================ /NAVBAR ================================ */
-
 /* ================================ /DANCE SHOWS ================================ */
-
-.bg-grad {
-    background-image: url("../img/bggrad.jpg"); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 .btn {
     font-weight: 600;
