@@ -295,33 +295,27 @@ if (!isset($_SESSION['belepett'])) {
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4">
-
-                            <div class="clearfix">
-                                <p>
-                                    <a class="btn btn-primary clearfix" data-toggle="collapse" href="#supernazuralSinger" aria-expanded="false" aria-controls="supernazuralSinger">
-                                    <img class="img-responsive btnImage" src="img\premium_9_supernatsing.jpg" alt="Adam and Eve">SUPERNATURAL WITH SINGER INTRO
-                                </a>
-                                </p>
-                                <div class="collapse clearfix" id="supernazuralSinger">
-                                    <div class="card card-body">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Nt33-Y99e-0" frameborder="0" allowfullscreen></iframe>
-                                        </div>
-                                        <div class="card-txt">
-                                            <small class="descript">
+                            <div class="flip" id="flip9">
+                                <div id="video9" class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Nt33-Y99e-0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <img id="image9" class="img-responsive" src="img\premium_9_supernatsing.jpg" alt="SUPERNATURAL WITH SINGER INTRO">
+                                <h2 class="cim" id="cim9">SUPERNATURAL <span class="light">WITH SINGER INTRO</span> </h2>
+                            </div>
+                            <div class="panel" id="panel9">
+                                <div class="card-txt">
+                                    <small class="descript">
                                             The most spectacular Cinderella story told by live interactive projection dance on stage, based on Freelusion’s popular FakeOff
                                             Talent Show performance, broadcasted on TRU TV in the US.
                                         </small>
-                                            <p class="specifi">
-                                                Length:
-                                                <strong>12 minutes</strong>
-                                                <br> Crew:
-                                                <strong>1 singer, 4 dancers,
+                                    <p class="specifi">
+                                        Length:
+                                        <strong>12 minutes</strong>
+                                        <br> Crew:
+                                        <strong>1 singer, 4 dancers,
                                                 <br> 1 manager, 1 technician, 1 assistant</strong>
-                                            </p>
-                                            <h3 class="price">14.410 €</h3>
-                                        </div>
-                                    </div>
+                                    </p>
+                                    <h3 class="price">14.410 €</h3>
                                 </div>
                             </div>
                         </div>
