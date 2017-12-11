@@ -17,7 +17,7 @@ if (!isset($_SESSION['belepett'])) {
         <meta name="author" content="Nyolczas István">
         <link rel="icon" type="image/png" href="img/freelusion-icon.png">
 
-        <title>Dance Shows | FREELUSION Price List</title>
+        <title>Animation Artworks | Price List</title>
         <!--   ================================ css reset ================================ -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
         <!--   ================================ Bootstrap styles ================================ -->

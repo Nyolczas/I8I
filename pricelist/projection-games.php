@@ -80,7 +80,9 @@ if (!isset($_SESSION['belepett'])) {
         <main>
             <div class="container">
                 <!-- Az oldal tartalma -->
-
+                <div class="jumbotron jumbotron-shows">
+                    <h1 class="h1-shows">Interactive Games</h1>
+                </div>
                 <!-- / Az oldal tartalma -->
             </div>
             <!-- /.container -->
