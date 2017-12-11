@@ -18,16 +18,14 @@ if (!isset($_SESSION['belepett'])) {
         <link rel="icon" type="image/png" href="img/freelusion-icon.png">
 
         <title>Dance Shows | FREELUSION Price List</title>
-
+        <!--   ================================ css reset ================================ -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-        <!-- Bootstrap core CSS -->
+        <!--   ================================ Bootstrap styles ================================ -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <!-- social media -->
+        <!--   ================================ social media ================================ -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <!-- Custom styles -->
-        <link href="css/pricelist-basic.css" rel="stylesheet">
-        <link href="css/pricelist-intro.css" rel="stylesheet">
+        <!--   ================================ My styles ================================ -->
+        <link href="css/pricelist-basic2.css" rel="stylesheet">
     </head>
 
     <body>
@@ -82,7 +80,9 @@ if (!isset($_SESSION['belepett'])) {
         <main>
             <div class="container">
                 <!-- Az oldal tartalma -->
-
+                <div class="jumbotron jumbotron-shows">
+                    <h1 class="h1-shows">Animation Artworks</h1>
+                </div>
                 <!-- / Az oldal tartalma -->
             </div>
             <!-- /.container -->

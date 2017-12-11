@@ -53,7 +53,7 @@ button:focus,
     margin-left: 1.8rem;
 }
 
-.f-menu {
+.dropdown-menu {
     background-color: rgba(51, 14, 50, 0.95)!important;
     top: 107%;
     border-left: 1px solid rgba(207, 6, 123, 0.75)!important;
