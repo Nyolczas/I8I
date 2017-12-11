@@ -41,21 +41,13 @@ if (!isset($_SESSION['belepett'])) {
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="pricelistNavbar">
-                    <ul class="navbar-nav navbar-right">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">DANCE SHOWS</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="introdution.php">Introducion</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item active" href="danceshows.php">Dance Shows</a>
-                                <a class="dropdown-item" href="videoprojection.php">Video Projection Solutions</a>
-                                <a class="dropdown-item" href="free100.php">100% Freelusion</a>
-                                <a class="dropdown-item" href="artworks.php">Animation Artworks</a>
-                            </div>
+                    <ul class="navbar-nav navbar-right bottom-align">
+                        <li class="nav-item">
+                            <a class="nav-link" href="introdution.php">Introduction</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Full Night Shows</a>
-                            <div class="dropdown-menu">
+                            <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dance Shows</a>
+                            <div class="dropdown-menu f-menu">
                                 <a class="dropdown-item" href="danceshows.php">About Dance Shows</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="dance-tailormade.php">Tailor Made Dance</a>
@@ -64,6 +56,23 @@ if (!isset($_SESSION['belepett'])) {
                                 <a class="dropdown-item" href="dance-premium.php">Premium Dance Shows</a>
                                 <a class="dropdown-item" href="dance-basic.php">Basic Dance Shows</a>
                             </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Video Projection Solutions</a>
+                            <div class="dropdown-menu f-menu">
+                                <a class="dropdown-item" href="videoprojection.php">About Video Projections</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="projection-building.php">Building Mapping</a>
+                                <a class="dropdown-item" href="projection-car.php">Car Projection</a>
+                                <a class="dropdown-item" href="projection-stage.php">Stage Decor</a>
+                                <a class="dropdown-item" href="projection-games.php">Interactive Games</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free100.php">100% Freelusion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="artworks.php">Animation Artworks</a>
                         </li>
                     </ul>
                 </div>

@@ -43,13 +43,30 @@ if (!isset($_SESSION['belepett'])) {
                 <div class="collapse navbar-collapse" id="pricelistNavbar">
                     <ul class="navbar-nav navbar-right bottom-align">
                         <li class="nav-item">
-                            <a class="nav-link" href="introdution.php">Introducion</a>
+                            <a class="nav-link" href="introdution.php">Introduction</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="danceshows.php">Dance Shows</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dance Shows</a>
+                            <div class="dropdown-menu f-menu">
+                                <a class="dropdown-item" href="danceshows.php">About Dance Shows</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="dance-tailormade.php">Tailor Made Dance</a>
+                                <a class="dropdown-item" href="dance-fullnight.php">Full Night Shows</a>
+                                <a class="dropdown-item" href="dance-coworking.php">Co-Working Shows</a>
+                                <a class="dropdown-item" href="dance-premium.php">Premium Dance Shows</a>
+                                <a class="dropdown-item" href="dance-basic.php">Basic Dance Shows</a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="videoprojection.php">Video Projection Solutions</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Video Projection Solutions</a>
+                            <div class="dropdown-menu f-menu">
+                                <a class="dropdown-item" href="videoprojection.php">About Video Projections</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="projection-building.php">Building Mapping</a>
+                                <a class="dropdown-item" href="projection-car.php">Car Projection</a>
+                                <a class="dropdown-item" href="projection-stage.php">Stage Decor</a>
+                                <a class="dropdown-item" href="projection-games.php">Interactive Games</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="free100.php">100% Freelusion</a>
