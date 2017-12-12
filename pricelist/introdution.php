@@ -84,7 +84,7 @@ if (!isset($_SESSION['belepett'])) {
         <div class="bgimg-1">
             <div class="caption">
                 <span class="border">Introduction</span>
-                <img id="scroll" src="img/scroll.png" alt="scroll">
+                <img id="scroll" src="img/scroll-dn.png" alt="scroll">
             </div>
         </div>
 
