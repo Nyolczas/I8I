@@ -34,26 +34,42 @@ html {
 #scroll {
     display: block;
     margin: auto;
-    -webkit-animation-name: scrollanim; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s;  /*Safari 4.0 - 8.0 */
+    -webkit-animation-name: scrollanim;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /*Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite;
     animation-name: scrollanim;
-    animation-duration: 1s; 
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
 /* Safari 4.0 - 8.0 */
+
 @-webkit-keyframes scrollanim {
-    0%   {opacity: 1;}
-    50%  {opacity: 0.38;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.38;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Standard syntax */
+
 @keyframes scrollanim {
-    0%   {opacity: 1;}
-    50%  {opacity: 0.38;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.38;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .txt-block {
@@ -83,7 +99,7 @@ html {
 .caption {
     position: absolute;
     left: 0;
-    top: 35%;
+    top: 30%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -98,15 +114,42 @@ html {
 }
 
 #intro {
-/*    position: absolute;*/
-/*    transform: translate(-50%, -15vh);*/
     font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+    #intro {
+        font-size: 1.8rem;
+    }
+    
+    .caption {
+       top: 45%; 
+    }
+}
+
+@media (min-width: 768px) {
+    #intro {
+        font-size: 2.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #intro {
+        font-size: 2.4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    #intro {
+        font-size: 2.7rem;
+    }
 }
 
 .border {
     color: #fff;
     background-color: transparent!important;
-    font-size:25px;
+    font-size: 25px;
+    line-height: 4.4rem;
 }
 
 .btn,
