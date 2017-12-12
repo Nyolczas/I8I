@@ -135,10 +135,11 @@ if (!isset($_SESSION['belepett'])) {
 
         <div class="bgimg-1">
             <div class="caption-btns">
-                <a class="btn btn-outline-light btn-lg" href="danceshows.php" role="button">Dance Shows</a>
-                <a class="btn btn-outline-light btn-lg" href="videoprojection.php" role="button">Video Projection Solutions</a>
-                <a class="btn btn-outline-light btn-lg" href="free100.php" role="button">100% Freelusion</a>
-                <a class="btn btn-outline-light btn-lg" href="artworks.php" role="button">Animation Artworks</a>
+                <a class="btn btn-primary btn-lg" href="dance-tailormade.php" role="button">Tailor Made Dance</a>
+                <a class="btn btn-primary btn-lg" href="dance-fullnight.php" role="button">Full Night Shows</a>
+                <a class="btn btn-primary btn-lg" href="dance-coworking.php" role="button">Co-Working Shows</a>
+                <a class="btn btn-primary btn-lg" href="dance-premium.php" role="button">Premium Dance Shows</a>
+                <a class="btn btn-primary btn-lg" href="dance-basic.php" role="button">Basic Dance Shows</a>
             </div>
         </div>
         <!-- / Az oldal tartalma -->
