@@ -84,6 +84,7 @@ if (!isset($_SESSION['belepett'])) {
         <div class="bgimg-1">
             <div class="caption">
                 <span class="border">Introduction</span>
+                <img id="scroll" src="img/scroll.png" alt="scroll">
             </div>
         </div>
 
@@ -97,7 +98,7 @@ if (!isset($_SESSION['belepett'])) {
 
         <div class="bgimg-2">
             <div class="caption">
-                <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">WE ARE THE BIGGEST</span>
+                <span class="border">WE ARE THE BIGGEST</span>
             </div>
         </div>
 
@@ -117,7 +118,7 @@ if (!isset($_SESSION['belepett'])) {
 
         <div class="bgimg-3">
             <div class="caption">
-                <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">YOU CAN HAVE THE BEST</span>
+                <span class="border">YOU CAN HAVE THE BEST</span>
             </div>
         </div>
 
@@ -135,8 +136,11 @@ if (!isset($_SESSION['belepett'])) {
         </div>
 
         <div class="bgimg-1">
-            <div class="caption">
-                <span class="border">COOL!</span>
+            <div class="caption-btns">
+                <a class="btn btn-outline-light btn-lg" href="danceshows.php" role="button">Dance Shows</a>
+                <a class="btn btn-outline-light btn-lg" href="videoprojection.php" role="button">Video Projection Solutions</a>
+                <a class="btn btn-outline-light btn-lg" href="free100.php" role="button">100% Freelusion</a>
+                <a class="btn btn-outline-light btn-lg" href="artworks.php" role="button">Animation Artworks</a>
             </div>
         </div>
         <!-- / Az oldal tartalma -->

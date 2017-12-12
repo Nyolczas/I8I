@@ -22,13 +22,18 @@ html {
 }
 
 .bgimg-2 {
+    background-image: url("../img/intro-bg2.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
     background-image: url("../img/intro-bg3.jpg");
     min-height: 500px;
 }
 
-.bgimg-3 {
-    background-image: url("../img/intro-bg2.jpg");
-    min-height: 400px;
+#scroll {
+    display: block;
+    margin: auto;
 }
 
 .txt-block {
@@ -54,6 +59,27 @@ html {
     width: 100%;
     text-align: center;
     color: #000;
+}
+
+.caption-btns {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    color: #f8f9fa;
+    background-color: transparent!important;
+    font-size:25px;
+}
+
+.btn,
+.btn-outline-light,
+.btn-lg {
+    margin: 0.5rem;
+    border-radius: 0;
 }
 
 .caption span.border {
