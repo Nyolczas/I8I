@@ -1,59 +1,82 @@
-body, html {
-  height: 100%;
-  margin: 0;
+body,
+html {
+    height: 100%;
+    margin: 0;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+
 .bgimg-1 {
-  background-image: url("../img/intro-bg1.jpg");
-  min-height: 100%;
+    background-image: url("../img/intro-bg1.jpg");
+    min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("../img/intro-bg2.jpg");
-  min-height: 500px;
+    background-image: url("../img/intro-bg3.jpg");
+    min-height: 500px;
 }
 
 .bgimg-3 {
-  background-image: url("../img/intro-bg3.jpg");
-  min-height: 500px;
+    background-image: url("../img/intro-bg2.jpg");
+    min-height: 400px;
+}
+
+.txt-block {
+    color: white;
+    padding: 50px 80px;
+    text-align: center;
+    text-align: justify;
+
+    background: -moz-linear-gradient(0% 50% 0deg, rgba(137, 4, 83, 1) 0%, rgba(127, 6, 85, 1) 2.38%, rgba(95, 11, 89, 1) 10.89%, rgba(70, 15, 93, 1) 19.72%, rgba(52, 18, 96, 1) 28.91%, rgba(41, 19, 97, 1) 38.68%, rgba(38, 20, 98, 1) 50%, rgba(36, 24, 99, 1) 61.42%, rgba(29, 37, 104, 1) 73.63%, rgba(17, 59, 111, 1) 86.2%, rgba(1, 88, 121, 1) 98.95%, rgba(0, 91, 122, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(137, 4, 83, 1) 0%, rgba(127, 6, 85, 1) 2.38%, rgba(95, 11, 89, 1) 10.89%, rgba(70, 15, 93, 1) 19.72%, rgba(52, 18, 96, 1) 28.91%, rgba(41, 19, 97, 1) 38.68%, rgba(38, 20, 98, 1) 50%, rgba(36, 24, 99, 1) 61.42%, rgba(29, 37, 104, 1) 73.63%, rgba(17, 59, 111, 1) 86.2%, rgba(1, 88, 121, 1) 98.95%, rgba(0, 91, 122, 1) 100%);
+    background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0, rgba(137, 4, 83, 1)), color-stop(0.0238, rgba(127, 6, 85, 1)), color-stop(0.1089, rgba(95, 11, 89, 1)), color-stop(0.1972, rgba(70, 15, 93, 1)), color-stop(0.2891, rgba(52, 18, 96, 1)), color-stop(0.3868, rgba(41, 19, 97, 1)), color-stop(0.5, rgba(38, 20, 98, 1)), color-stop(0.6142, rgba(36, 24, 99, 1)), color-stop(0.7363, rgba(29, 37, 104, 1)), color-stop(0.862, rgba(17, 59, 111, 1)), color-stop(0.9895, rgba(1, 88, 121, 1)), color-stop(1, rgba(0, 91, 122, 1)));
+    background: -o-linear-gradient(0deg, rgba(137, 4, 83, 1) 0%, rgba(127, 6, 85, 1) 2.38%, rgba(95, 11, 89, 1) 10.89%, rgba(70, 15, 93, 1) 19.72%, rgba(52, 18, 96, 1) 28.91%, rgba(41, 19, 97, 1) 38.68%, rgba(38, 20, 98, 1) 50%, rgba(36, 24, 99, 1) 61.42%, rgba(29, 37, 104, 1) 73.63%, rgba(17, 59, 111, 1) 86.2%, rgba(1, 88, 121, 1) 98.95%, rgba(0, 91, 122, 1) 100%);
+    background: -ms-linear-gradient(0deg, rgba(137, 4, 83, 1) 0%, rgba(127, 6, 85, 1) 2.38%, rgba(95, 11, 89, 1) 10.89%, rgba(70, 15, 93, 1) 19.72%, rgba(52, 18, 96, 1) 28.91%, rgba(41, 19, 97, 1) 38.68%, rgba(38, 20, 98, 1) 50%, rgba(36, 24, 99, 1) 61.42%, rgba(29, 37, 104, 1) 73.63%, rgba(17, 59, 111, 1) 86.2%, rgba(1, 88, 121, 1) 98.95%, rgba(0, 91, 122, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#890453', endColorstr='#005B7A' ,GradientType=0)";
+    background: linear-gradient(90deg, rgba(137, 4, 83, 1) 0%, rgba(127, 6, 85, 1) 2.38%, rgba(95, 11, 89, 1) 10.89%, rgba(70, 15, 93, 1) 19.72%, rgba(52, 18, 96, 1) 28.91%, rgba(41, 19, 97, 1) 38.68%, rgba(38, 20, 98, 1) 50%, rgba(36, 24, 99, 1) 61.42%, rgba(29, 37, 104, 1) 73.63%, rgba(17, 59, 111, 1) 86.2%, rgba(1, 88, 121, 1) 98.95%, rgba(0, 91, 122, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#890453', endColorstr='#005B7A', GradientType=1);
 }
 
 .caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
 }
 
 .caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
 
 h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
+
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
         background-attachment: scroll;
     }
 }
