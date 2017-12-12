@@ -79,63 +79,69 @@ if (!isset($_SESSION['belepett'])) {
             </div>
         </nav>
         <!-- /.navbar -->
-                <!-- Az oldal tartalma -->
-                <div class="bgimg-1">
-                    <div class="caption">
-                        <span id="intro" class="border">Dance Shows</span>
-                        <img id="scroll" src="img/scroll-dn.png" alt="scroll">
-                    </div>
-                </div>
+        <!-- Az oldal tartalma -->
+        <div class="bgimg-1">
+            <div class="caption">
+                <span id="intro" class="border">Dance Shows</span>
+                <img id="scroll" src="img/scroll-dn.png" alt="scroll">
+            </div>
+        </div>
 
-                <div class="txt-block">
-                    <div class="container">
-                        <p>
-                            Freelusion’s pioneering entertainment brand is a spectacular mixture of contemporary dance trends and 3D projection mapping. Our globetrotting dance company has been on primetime talent shows such as America’s Got Talent, Britain’s Got Talent, and Fake Off, and has been invited to dozens of other TV productions in Europe and Asia. With more than 50 shows in our arsenal and 140 dancers worldwide, we are the Planet’s very first and most successful 3D dance company.
-                        </p>
-                    </div>
-                </div>
+        <div class="txt-block">
+            <div class="container">
+                <p>
+                    Freelusion’s pioneering entertainment brand is a spectacular mixture of contemporary dance trends and 3D projection mapping.
+                </p>
+                <p>
+                    Our globetrotting dance company has been on primetime talent shows such as America’s Got Talent, Britain’s Got Talent, and Fake Off, and has been invited to dozens of other TV productions in Europe and Asia.
+                </p>
+                <p>
+                    With more than 50 shows in our arsenal and 140 dancers worldwide, we are the Planet’s very first and most successful 3D dance company.
+                </p>
+            </div>
+        </div>
 
-                <div class="bgimg-2">
-                    <div class="caption">
-                        <span class="border">WE ARE THE BIGGEST</span>
-                    </div>
-                </div>
+        <div class="bgimg-2">
+            <div class="caption">
+                <span class="border">WE ARE THE BIGGEST</span>
+            </div>
+        </div>
 
-                <div style="position:relative;">
-                    <div class="txt-block">
-                        <div class="container">
-                            <p>
-                               Freelusion dance shows are on the rise as a trend. As producers, creators and performers, Freelusion has been involved in projection mapping dance projects for company events, government contracts, trade shows, product launches, concerts and entertainment shows. 
-                            </p>
-                        </div>
-                    </div>
+        <div style="position:relative;">
+            <div class="txt-block">
+                <div class="container">
+                    <p>
+                        Freelusion dance shows are on the rise as a trend. As producers, creators and performers, Freelusion has been involved in projection mapping dance projects for company events, government contracts, trade shows, product launches, concerts and entertainment shows.
+                    </p>
                 </div>
+            </div>
+        </div>
 
-                <div class="bgimg-3">
-                    <div class="caption">
-                        <span class="border">YOU CAN HAVE THE BEST</span>
-                    </div>
-                </div>
+        <div class="bgimg-3">
+            <div class="caption">
+                <span class="border">YOU CAN HAVE THE BEST</span>
+            </div>
+        </div>
 
-                <div style="position:relative;">
-                    <div class="txt-block">
-                        <div class="container">
-                            <p>
-                                Our Budapest based studio has been a leading enterprise of projection mapping dance shows. Our creation has sparked the world’s imagination. We are developing brand new animation techniques to create unforgettable experiences.
-                            </p>
-                        </div>
-                    </div>
+        <div style="position:relative;">
+            <div class="txt-block">
+                <div class="container">
+                    <p>
+                        Our Budapest based studio has been a leading enterprise of projection mapping dance shows. Our creation has sparked the world’s imagination. We are developing brand new animation techniques to create unforgettable experiences.
+                    </p>
                 </div>
+            </div>
+        </div>
 
-                <div class="bgimg-1">
-                    <div class="caption-btns">
-                        <a class="btn btn-outline-light btn-lg" href="danceshows.php" role="button">Dance Shows</a>
-                        <a class="btn btn-outline-light btn-lg" href="videoprojection.php" role="button">Video Projection Solutions</a>
-                        <a class="btn btn-outline-light btn-lg" href="free100.php" role="button">100% Freelusion</a>
-                        <a class="btn btn-outline-light btn-lg" href="artworks.php" role="button">Animation Artworks</a>
-                    </div>
-                </div>
-                <!-- / Az oldal tartalma -->
+        <div class="bgimg-1">
+            <div class="caption-btns">
+                <a class="btn btn-outline-light btn-lg" href="danceshows.php" role="button">Dance Shows</a>
+                <a class="btn btn-outline-light btn-lg" href="videoprojection.php" role="button">Video Projection Solutions</a>
+                <a class="btn btn-outline-light btn-lg" href="free100.php" role="button">100% Freelusion</a>
+                <a class="btn btn-outline-light btn-lg" href="artworks.php" role="button">Animation Artworks</a>
+            </div>
+        </div>
+        <!-- / Az oldal tartalma -->
 
         <!-- footer -->
         <footer class="footer bg-dark">

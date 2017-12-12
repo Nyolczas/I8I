@@ -131,10 +131,13 @@ html {
 }
 
 .border {
+    cursor: default;
     color: #fff;
     background-color: transparent!important;
     font-size: 25px;
     line-height: 4.4rem;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 0 12px rgba(0, 0, 0, 0.4) , 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .btn,
@@ -142,6 +145,14 @@ html {
 .btn-lg {
     margin: 0.5rem;
     border-radius: 0;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.75), 0 0 12px rgba(0, 0, 0, 0.6) , 0 0 20px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover,
+.btn-outline-light:hover,
+.btn-lg:hover {
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.75);
 }
 
 .caption span.border {
