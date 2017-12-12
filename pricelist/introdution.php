@@ -26,6 +26,7 @@ if (!isset($_SESSION['belepett'])) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--   ================================ My styles ================================ -->
         <link href="css/pricelist-basic2.css" rel="stylesheet">
+        <link href="css/scroll.css" rel="stylesheet">
         <link href="css/intro.css" rel="stylesheet">
 
     </head>
