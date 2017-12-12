@@ -79,8 +79,6 @@ if (!isset($_SESSION['belepett'])) {
             </div>
         </nav>
         <!-- /.navbar -->
-        <main>
-            <div class="container">
                 <!-- Az oldal tartalma -->
                 <div class="bgimg-1">
                     <div class="caption">
@@ -138,10 +136,6 @@ if (!isset($_SESSION['belepett'])) {
                     </div>
                 </div>
                 <!-- / Az oldal tartalma -->
-
-            </div>
-            <!-- /.container -->
-        </main>
 
         <!-- footer -->
         <footer class="footer bg-dark">

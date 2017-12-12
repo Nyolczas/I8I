@@ -1,15 +1,15 @@
 .bgimg-1 {
-    background-image: url("../img/intro-bg1.jpg");
+    background-image: url("../img/dance-bg1.jpg");
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("../img/intro-bg2.jpg");
+    background-image: url("../img/dance-bg2.jpg");
     min-height: 400px;
 }
 
 .bgimg-3 {
-    background-image: url("../img/intro-bg3.jpg");
+    background-image: url("../img/dance-bg3.jpg");
     min-height: 500px;
 }
 
