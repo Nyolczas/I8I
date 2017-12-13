@@ -16,11 +16,26 @@ ul {
   transform: translate(-50%, -50%);
   z-index: 100;
   display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0;
+  text-align: center;
 }
 
 ul li{
   list-style: none;
-  padding: .5rem 2rem;
+  padding: .8rem 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  ul {
+    flex-direction: row;
+  }
+
+  ul li {
+    padding: .8rem 3vw;
+  }
 }
 
 ul li a {
