@@ -8,11 +8,16 @@ canvas.height = H;
 
 var c = canvas.getContext('2d');
 // ============================================= Set html colors
+var logoUl = document.getElementById('logo-ul');
+var h1 = document.getElementById('h1');
+var h2 = document.getElementById('h2');
+var link = document.getElementsByClassName("link");
+
 function counter(x) {
     if (x == 360) {
         return 1;
     } else {
-        return x + 1;
+        return x + 6;
     }
 };
 var cnt = 0;
@@ -20,15 +25,23 @@ function colorClock() {
     cnt = counter(cnt);
     setTimeout(function () {
         colorClock();
-    }, 100);
+        var darkColor = 'hsl(' + cnt + ', 80%, 10%)';
+        var darkfullColor = 'hsl(' + cnt + ', 100%, 25%)';
+        var lightColor = 'hsl(' + cnt + ', 50%, 50%)';
+        var fullColor = 'hsl(' + cnt + ', 100%, 50%)';
+        var leadColor = 'hsl(' + cnt + ', 100%, 80%)';
+    
+        document.body.style.background = darkColor;
+        logoUl.style.backgroundColor = fullColor;
+        h1.style.color = leadColor;
+        h2.style.color = lightColor;
+        for ( var i = 0; i < link.length; i++) {
+            link[i].style.color = lightColor;
+        }
+    }, 200);
 
-    var darkColor = 'hsl(' + cnt + ', 80%, 10%)';
-    var darkfullColor = 'hsl(' + cnt + ', 100%, 25%)';
-    var lightColor = 'hsl(' + cnt + ', 100%, 90%)';
-    var fullColor = 'hsl(' + cnt + ', 80%, 60%)';
-    var leadColor = 'hsl(' + cnt + ', 100%, 80%)';
 
-    document.body.style.background = darkColor;
+
 };
 
 
