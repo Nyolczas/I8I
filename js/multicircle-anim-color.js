@@ -38,9 +38,7 @@ function colorClock() {
         for ( var i = 0; i < link.length; i++) {
             link[i].style.color = lightColor;
         }
-    }, 200);
-
-
+    }, 300);
 
 };
 
@@ -56,7 +54,7 @@ var speedFactor = 0.5;
 var minRadius = Math.floor((W + H) * 0.001);
 var maxRadius = minRadius * 8 - minRadius;
 
-var quant = Math.floor((W + H) * 0.05);
+var quant = Math.floor((W + H) * 0.01);
 var mouseField = 44;
 
 // ============================================= Events

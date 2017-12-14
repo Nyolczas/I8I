@@ -14,7 +14,7 @@ body {
   position: absolute;
   top: 47vh;
   left: 50vw;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -25vh);
   z-index: 50;
 }
 
@@ -26,6 +26,10 @@ body {
   height: 100px;
   background-color: hsl(51, 100%, 50%);
   border-radius: 50%;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 #logo {
