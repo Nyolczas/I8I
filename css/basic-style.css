@@ -11,10 +11,10 @@ body {
   #logo-ul {
       position: relative;
     box-sizing: border-box;
-    margin: -14px auto 0 auto;
+    margin: -34px auto 0 auto;
     display: block;
-    width: 66px;
-    height: 66px;
+    width: 88px;
+    height: 88px;
     background-color: hsl(51, 100%, 50%);
     border-radius: 50%;
     z-index: 100;
@@ -164,4 +164,10 @@ ul li {
     right: 0px;
     opacity: 1;
     border-color: gold;
+  }
+
+  /* ======== / Navbar ======== */
+
+  main {
+      margin-top: 70px;
   }
