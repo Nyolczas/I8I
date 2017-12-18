@@ -1,14 +1,21 @@
-Szolg·ltat·sok
-	Webdesign, weboldal kÈszÌtÈs
-	2D 3D illusztr·ciÛk
-	2D 3D anim·ciÛk
+Szolg√°ltat√°sok
+	Webdesign, weboldal k√©sz√≠t√©s
+	2D 3D illusztr√°ci√≥k
+	2D 3D anim√°ci√≥k
 
-RÛlam
-	Programoz·s
-	Grafika, Illusztr·ciÛ
-	Anim·ciÛ
+R√≥lam
+	Programoz√°s
+	Grafika, Illusztr√°ci√≥
+	Anim√°ci√≥
 
-PortfÛliÛ
+Portf√≥li√≥
 	Weboldalak	
-	Illusztr·ciÛ Concept-Art
-	2D-3D Anim·ciÛ
+	Illusztr√°ci√≥ Concept-Art
+	2D-3D Anim√°ci√≥
+
+	//Head carousel
+
+	Elk√©sz√≠tem a weblapodat.
+	Megtervezem a log√≥dat...  ...√©s meg is anim√°lom.
+	Illusztr√°ci√≥kat √©s grafik√°kat k√©sz√≠tek a v√°llalkoz√°sod sz√°m√°ra.
+	
