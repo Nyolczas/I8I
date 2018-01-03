@@ -30,12 +30,12 @@ function colorClock() {
         var lightColor = 'hsl(' + cnt + ', 50%, 50%)';
         var fullColor = 'hsl(' + cnt + ', 100%, 50%)';
         var leadColor = 'hsl(' + cnt + ', 100%, 80%)';
-    
+
         document.body.style.background = darkColor;
         logoUl.style.backgroundColor = fullColor;
         h1.style.color = leadColor;
         h2.style.color = lightColor;
-        for ( var i = 0; i < link.length; i++) {
+        for (var i = 0; i < link.length; i++) {
             link[i].style.color = lightColor;
         }
     }, 300);
@@ -68,7 +68,6 @@ window.addEventListener('mousemove',
         mouse.x = event.x;
         mouse.y = event.y;
     })
-
 // =============================================
 
 function Circle(x, y, xSpeed, ySpeed, radius) {
