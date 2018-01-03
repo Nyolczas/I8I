@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio | 8-I</title>
+
+    <!-- jQuery CSS -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="https://getbootstrap.com/docs/3.3/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles -->
     <link href="css/basic-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery-style.css">
     <!-- Scripts -->
     <script src="https://getbootstrap.com/docs/3.3/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
@@ -68,22 +76,96 @@
         </div>
     </nav>
     <main>
-        <div class="container">
+        <div class="container-gallery">
             <!-- Az oldal tartalma -->
-            <div class="jumbotron">
-                <p>...az oldal feltöltés alatt.</p>
+            <div class="flip" id="miss-u-flip">
+                <h3>Miss Universe 2016 - Stage design concepts</h3>
+            </div>
+            <div class="g-panel" id="miss-u-panel">
+                <!-- Gallery Row 1 Start -->
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\02_Water_Interakt_3.jpg" data-lightbox="example-set"
+                        data-title="Water World Interaction">
+                        <img class="example-image" src="img\gallery-missu\smalls\02_Water_Interakt_3.jpg" alt="img\gallery-missu\02_Water_Interakt_3.jpg"
+                            title="Water World Interaction">
+                    </a>
+                </section>
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\03_Water_Kifuto.jpg" data-lightbox="example-set"
+                        data-title="Water World Catwalk">
+                        <img class="example-image" src="img\gallery-missu\smalls\03_Water_Kifuto.jpg" alt="img\gallery-missu\03_Water_Kifuto.jpg"
+                            title="Water World Catwalk">
+                    </a>
+                </section>
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\04_Water_Full.jpg" data-lightbox="example-set" data-title="Water World">
+                        <img class="example-image" src="img\gallery-missu\smalls\04_Water_Full.jpg" alt="img\gallery-missu\04_Water_Full.jpg" title="Water World">
+                    </a>
+                </section>
+                <!-- Gallery Row 1 End -->
+
+                <!-- Gallery Row 2 Start -->
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\06_HeaveNHell_Interakt_2.jpg" data-lightbox="example-set"
+                        data-title="Heaven and Hell Interaction">
+                        <img class="example-image" src="img\gallery-missu\smalls\06_HeaveNHell_Interakt_2.jpg" alt="img\gallery-missu\06_HeaveNHell_Interakt_2.jpg"
+                            title="Heaven and Hell Interaction">
+                    </a>
+                </section>
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\07_HeaveNHell_Kifuto.jpg" data-lightbox="example-set"
+                        data-title="Heaven and Hell Catwalk">
+                        <img class="example-image" src="img\gallery-missu\smalls\07_HeaveNHell_Kifuto.jpg" alt="img\gallery-missu\07_HeaveNHell_Kifuto.jpg"
+                            title="Heaven and Hell Catwalk">
+                    </a>
+                </section>
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\08_HeaveNHell_Full.jpg" data-lightbox="example-set"
+                        data-title="Heaven and Hell">
+                        <img class="example-image" src="img\gallery-missu\smalls\08_HeaveNHell_Full.jpg" alt="img\gallery-missu\08_HeaveNHell_Full.jpg"
+                            title="Heaven and Hell">
+                    </a>
+                </section>
+                <!-- Gallery Row 2 End -->
+
+                <!-- Gallery Row 3 Start -->
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\10_Planets_Interakt_2.jpg" data-lightbox="example-set"
+                        data-title="Planets Interaction">
+                        <img class="example-image" src="img\gallery-missu\smalls\10_Planets_Interakt_2.jpg" alt="img\gallery-missu\10_Planets_Interakt_2.jpg"
+                            title="Planets Interaction">
+                    </a>
+                </section>
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\11_Planets_Kifuto.jpg" data-lightbox="example-set"
+                        data-title="Planets Catwalk">
+                        <img class="example-image" src="img\gallery-missu\smalls\11_Planets_Kifuto.jpg" alt="img\gallery-missu\11_Planets_Kifuto.jpg"
+                            title="Planets Catwalk">
+                    </a>
+                </section>
+                <section class="kep">
+                    <a class="example-image-link" id="lightbox-img" href="img\gallery-missu\12_Planets_Full.jpg" data-lightbox="example-set"
+                        data-title="Planets">
+                        <img class="example-image" src="img\gallery-missu\smalls\12_Planets_Full.jpg" alt="img\gallery-missu\12_Planets_Full.jpg"
+                            title="Planets">
+                    </a>
+                </section>
+                <!-- Gallery Row 3 End -->
             </div>
             <!-- / Az oldal tartalma -->
         </div>
         <!-- /.container -->
     </main>
-
     <!-- Bootstrap core JavaScript
-    ================================================== -->
+        ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://getbootstrap.com/docs/3.3/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="https://getbootstrap.com/docs/3.3/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- jQuery core JavaScript -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/slide-panels.js"></script>
 </body>
+
 </html>
