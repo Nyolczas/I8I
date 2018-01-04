@@ -11,6 +11,10 @@
     --main-dark-color: hsl(203, 100%, 9%);
 }
 
+.panel-group::after {
+    clear: both;
+}
+
 .flip, .g-panel {
     max-width: 400px;
     margin: 0 auto;
